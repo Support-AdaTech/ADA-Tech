@@ -1,0 +1,305 @@
+[
+  {
+    "name": "Config 800€",
+    "date": "22/08/2023",  
+    "description": "Config parfaite petit/moyen budget",
+    "tags": ["Gaming 1080p"],
+    "parts": [
+      {
+        "name": "AMD Ryzen 5 5600",
+        "type": "Processor",
+        "link": "https://amzn.to/44kozfg"
+      },
+      {
+        "name": "Thermalright Peerless Assassin X120 SE ARGB",
+        "type": "Fan",
+        "link": "https://amzn.to/45J86Cx"
+      },
+      {
+        "name": "MSI B550-A PRO",
+        "type": "Motherboard",
+        "link": "https://amzn.to/44rbMaJ"
+      },
+      {
+        "name": "G.Skill Ripjaws V 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3E3Tge5"
+      },
+      {
+        "name": "Kingston NV2 NVMe SSD 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/3YNxzIG"
+      },
+      {
+        "name": "SWFT210 RX 6650 XT",
+        "type": "Video Card",
+        "link": "https://amzn.to/3E7pWDl"
+      },
+      {
+        "name": "Deepcool CC560 ARGB",
+        "type": "Case",
+        "link": "https://amzn.to/3YNkAGJ"
+      },
+      {
+        "name": "MSI Alimentation, Noir, 650W",
+        "type": "PSU",
+        "link": "https://amzn.to/45kn1D8"
+      }
+    ]
+  },
+  {
+    "name": "Config 1000€",
+    "date": "22/08/2023",
+    "description": "Config milieu de gamme",
+    "tags": ["Gaming 1080p/1440p, Streaming possible"],
+    "parts": [
+      {
+        "name": "i5-12400F",
+        "type": "Processor",
+        "link": "https://amzn.to/44kQSu3"
+      },
+      {
+        "name": "Thermalright Peerless Assassin X120 SE ARGB",
+        "type": "Fan",  
+        "link": "https://amzn.to/45J86Cx"
+      },
+      {
+        "name": "MSI Pro B760-P WiFi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/45J54OJ"
+      },
+      {
+        "name": "G.Skill Ripjaws V 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3E3Tge5"
+      },
+      {
+        "name": "Kingston NV2 NVMe SSD 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/3YNxzIG"
+      },
+      {
+        "name": "Deepcool CC560 ARGB",
+        "type": "Case",
+        "link": "https://amzn.to/3YNkAGJ"
+      },
+      {
+        "name": "MSI Alimentation, Noir, 650W",
+        "type": "PSU",
+        "link": "https://amzn.to/45kn1D8"
+      }
+    ]
+  },
+  {
+    "name": "Config 1300€",
+    "date": "22/08/2023",
+    "description": "Config haut de gamme",
+    "tags": ["Gaming toutes résolutions, Streaming basic"],
+    "parts": [
+      {
+        "name": "i5-13400F",
+        "type": "Processor",
+        "link": "https://amzn.to/45GfSNA"
+      },
+      {
+        "name": "Thermalright Peerless Assassin 120 SE ARGB",
+        "type": "Fan",
+        "link": "https://amzn.to/3P7cQMJ"
+      },
+      {
+        "name": "MSI Pro B760-P WiFi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/45J54OJ"
+      },
+      {
+        "name": "G.Skill Ripjaws V 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3E3Tge5"
+      },
+      {
+        "name": "Kingston NV2 NVMe SSD 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/3YNxzIG"
+      },
+      {
+        "name": "XFX Speedster MERC319 RX 6800 XT",
+        "type": "Video Card",
+        "link": "https://amzn.to/3YNpRhD"
+      },
+      {
+        "name": "Phanteks Eclipse G360A",
+        "type": "Case",
+        "link": "https://amzn.to/45GwnsI"
+      },
+      {
+        "name": "MSI MPG A650GF",
+        "type": "PSU",
+        "link": "https://amzn.to/3OOIs8o"
+      }
+    ]
+  },
+  {
+    "name": "Config 1600€",
+    "date": "22/08/2023",
+    "description": "Config haut de gamme",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i5-13600KF",
+        "type": "Processor",
+        "link": "https://amzn.to/3YOqvvy"
+      },
+      {
+        "name": "Deepcool AK620",
+        "type": "Fan",
+        "link": "https://amzn.to/47HOyjw"
+      },
+      {
+        "name": "MSI Pro B760-P WiFi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/47CnnXz"
+      },
+      {
+        "name": "G.Skill Ripjaws V 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3YNph3r"
+      },
+      {
+        "name": "Kingston NV2 NVMe SSD 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/3soVoup"
+      },
+      {
+        "name": "ASUS DUAL RTX 4070 OC",
+        "type": "Video Card",
+        "link": "https://amzn.to/3KPY7Dn"
+      },
+      {
+        "name": "Corsair 4000D Airflow",
+        "type": "Case",
+        "link": "https://amzn.to/3YJUhBw"
+      },
+      {
+        "name": "MSI MPG A750GF",
+        "type": "PSU",
+        "link": "https://amzn.to/3YJY6q6"
+      },
+      {
+        "name": "DEEPCOOL FK120 (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/45bz065"
+      }
+    ]
+  },
+  {  
+    "name": "Config 2100€",
+    "date": "23/08/2023",
+    "description": "Config très haut de gamme",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i5-13600KF",
+        "type": "Processor",
+        "link": "https://amzn.to/3QRgPy5"
+      },
+      {
+        "name": "Deepcool LS720 Noir",
+        "type": "Fan",
+        "link": "https://amzn.to/3YMm5oI"
+      },
+      {
+        "name": "MSI Pro B760-P Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/3QRCIgT"
+      },
+      {
+        "name": "Kingston FURY Renegade 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3QMEnnZ"
+      },
+      {
+        "name": "Sabrent M.2 NVMe SSD 2To",
+        "type": "SSD",
+        "link": "https://amzn.to/45FPlzL"
+      },
+      {
+        "name": "XFX Speedster MERC310 RX 7900XT",
+        "type": "Video Card",
+        "link": "https://amzn.to/3QR5X3d"
+      },
+      {
+        "name": "NZXT H9 Flow noir",
+        "type": "Case",
+        "link": "https://amzn.to/3E7oDUY"
+      },
+      {
+        "name": "ASUS ROG Strix 850W Gold",
+        "type": "PSU",
+        "link": "https://amzn.to/47Ln0di"
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2" 
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2"
+      }
+    ]
+  },
+  {
+    "name": "Config 3200€",
+    "date": "22/08/2023",
+    "description": "Config ultra haut de gamme",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i7-13700KF",
+        "type": "Processor",
+        "link": "https://amzn.to/44pAs3s"
+      },
+      {
+        "name": "Deepcool LT720",
+        "type": "Fan",
+        "link": "https://amzn.to/3KMRDVW"
+      },
+      {
+        "name": "MSI B760 Gaming Plus Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/45zvAd4"
+      },
+      {
+        "name": "G.Skill Ripjaws S5 DDR5 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3smFsbX"
+      },
+      {
+        "name": "Sabrent M.2 NVMe SSD 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/44gN2lv"
+      },
+      {
+        "name": "MSI RTX 4090 Gaming X Trio",
+        "type": "Video Card",
+        "link": "https://amzn.to/45CEbvM"
+      },
+      {
+        "name": "Corsair 5000D Airflow",
+        "type": "Case",
+        "link": "https://amzn.to/47M6Tw7"
+      },
+      {
+        "name": "MSI MPG A1000G PCIE5",
+        "type": "PSU",
+        "link": "https://amzn.to/44txjjq"
+      },
+      {
+        "name": "DEEPCOOL FK120 (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/44onm6F"
+      }
+    ]
+  }
+]
