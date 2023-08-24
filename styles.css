@@ -1,4 +1,14 @@
-
+.fa {
+  width: 10px;
+  height: 10px;
+}
+hr {
+  width: 25vw;
+  height: 1px;
+  background-color: #7895CB;
+  border: none;
+  margin-bottom: 5px;
+}
 .str-style {
     stroke-dasharray: 700;
     stroke-dashoffset: 1000;
