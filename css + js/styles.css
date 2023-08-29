@@ -508,6 +508,9 @@ hr {
     background-color: #312d3c;
     transform: translateY(-10px);
   }
+  section#section4 .button {
+    margin-top: 25px;
+  }
   section#section5 .slick-slide {
     text-align: center;
   }
