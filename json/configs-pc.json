@@ -301,5 +301,58 @@
         "link": "https://amzn.to/44onm6F"
       }
     ]
+  },
+  {
+    "name": "Config 1500€",
+    "date": "29/08/2023",
+    "description": "Config haut de gamme",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i7-13500",
+        "type": "Processor",
+        "link": "https://amzn.to/44wGz64"
+      },
+      {
+        "name": "Thermalright Peerless Assassin 120 SE ARGB",
+        "type": "Fan",
+        "link": "https://amzn.to/47ROVrQ"
+      },
+      {
+        "name": "MSI B760-P Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/3OZbe6v"
+      },
+      {
+        "name": "G.Skill Ripjaws V 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3Z2rqZm"
+      },
+      {
+        "name": "Samsung 970 EVO Plus 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/45PmUPX"
+      },
+      {
+        "name": "XFX Speedster MERC319 RX 6950xt",
+        "type": "Video Card",
+        "link": "https://amzn.to/3OYE1Ic"
+      },
+      {
+        "name": "Phanteks G360A",
+        "type": "Case",
+        "link": "https://amzn.to/3OUAWZK"
+      },
+      {
+        "name": "MSI MPG A750GF",
+        "type": "PSU",
+        "link": "https://amzn.to/44qdwkR"
+      },
+      {
+        "name": "DEEPCOOL FK120 (x1)",
+        "type": "Fan",
+        "link": "https://amzn.to/3EfFF38"
+      }
+    ]
   }
 ]
