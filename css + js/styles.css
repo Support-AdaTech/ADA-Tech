@@ -484,6 +484,9 @@ hr {
     transition: all 0.2s linear;
     will-change: transform;
   }
+  section#section4 h2 {
+    margin-top: 75px;
+  }
   section#section4 .block figure {
     position: relative;
     z-index: 1;
