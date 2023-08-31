@@ -424,5 +424,53 @@
         "link": "https://amzn.to/3EmhzDY"
       }
     ]
+  },
+  {
+    "name": "Config 1900€ pour Mylla",
+    "date": "31/08/2023",
+    "description": "Config très haut de gamme",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i5-13600kf",
+        "type": "Processor",
+        "link": "https://amzn.to/45xmM82"
+      },
+      {
+        "name": "Deepcool LS720 SE",
+        "type": "Fan",
+        "link": "https://amzn.to/3swqWhP"
+      },
+      {
+        "name": "MSI B760-P Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/3OZbe6v"
+      },
+      {
+        "name": "G.Skill Ripjaws V 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3Z2rqZm"
+      },
+      {
+        "name": "Samsung 970 EVO Plus 1To",
+        "type": "SSD",
+        "link": "https://amzn.to/45PmUPX"
+      },
+      {
+        "name": "Zotac GAMING Trinity RTX 4070 Ti",
+        "type": "Video Card",
+        "link": "https://amzn.to/3PkfgaM"
+      },
+      {
+        "name": "Phanteks Eclipse G360A",
+        "type": "Case",
+        "link": "https://amzn.to/3R3Ebki"
+      },
+      {
+        "name": "MSI MPG A750GF 750W",
+        "type": "PSU",
+        "link": "https://amzn.to/3EmhzDY"
+      }
+    ]
   }
 ]
