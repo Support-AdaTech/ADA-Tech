@@ -60,12 +60,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const tags = document.createElement("div");
         tags.className = "tags";
-        config.tags.forEach((tag) => {
-          const a = document.createElement("a");
-          a.href = "#";
-          a.textContent = tag;
-          tags.appendChild(a);
-        });
+
+        if (config.tags.length > 0 && config.tags[0] !== "") { // Check if tags array is not empty and not equal to "empty"
+          config.tags.forEach((tag) => {
+            if (tag !== "empty") { // Check if the tag is not "empty"
+              const a = document.createElement("a");
+              a.href = "#";
+              a.textContent = tag;
+              tags.appendChild(a);
+            }
+          });
+        } else {
+          tags.classList.add("hide-before"); // Add the CSS class to hide the ::before pseudo-element
+        }
+
+        // Set the custom CSS property to control the ::before pseudo-element
+        tags.style.setProperty("--tags-before-display", "block");
 
         post.appendChild(h3);
         post.appendChild(date);

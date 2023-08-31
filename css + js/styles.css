@@ -10,6 +10,9 @@ hr {
   border: none;
   margin-bottom: 5px;
 }
+.hide-before::before {
+  display: none;
+}
 .str-style {
     stroke-dasharray: 700;
     stroke-dashoffset: 1000;
