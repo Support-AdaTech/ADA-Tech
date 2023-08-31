@@ -470,6 +470,11 @@
         "name": "MSI MPG A750GF 750W",
         "type": "PSU",
         "link": "https://amzn.to/3EmhzDY"
+      },
+      {
+        "name": "DEEPCOOL FK120 (x1)",
+        "type": "Fan",
+        "link": "https://amzn.to/3EfFF38"
       }
     ]
   }
