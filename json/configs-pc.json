@@ -1,8 +1,9 @@
 [
   {
     "name": "Config 800€",
-    "date": "22/08/2023",  
+    "date": "15/10/2023",  
     "description": "Config parfaite petit/moyen budget",
+    "panier": "",
     "tags": ["Gaming 1080p"],
     "parts": [
       {
@@ -49,8 +50,9 @@
   },
   {
     "name": "Config 1000€",
-    "date": "22/08/2023",
+    "date": "15/10/2023",
     "description": "Config milieu de gamme",
+    "panier": "",
     "tags": ["Gaming 1080p/1440p, Streaming possible"],
     "parts": [
       {
@@ -97,8 +99,9 @@
   },
   {
     "name": "Config 1300€",
-    "date": "22/08/2023",
+    "date": "15/10/2023",
     "description": "Config haut de gamme",
+    "panier": "",
     "tags": ["Gaming toutes résolutions, Streaming basic"],
     "parts": [
       {
@@ -145,8 +148,9 @@
   },
   {
     "name": "Config 1600€",
-    "date": "22/08/2023",
+    "date": "15/10/2023",
     "description": "Config haut de gamme",
+    "panier": "",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -198,8 +202,9 @@
   },
   {  
     "name": "Config 2100€",
-    "date": "23/08/2023",
+    "date": "15/10/2023",
     "description": "Config très haut de gamme",
+    "panier": "",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -256,8 +261,9 @@
   },
   {
     "name": "Config 3200€",
-    "date": "22/08/2023",
+    "date": "15/10/2023",
     "description": "Config ultra haut de gamme",
+    "panier": "",
     "tags": ["Gaming, Streaming, Création de contenu"],
     "parts": [
       {
@@ -304,6 +310,183 @@
         "name": "DEEPCOOL FK120 (Pack de 3)",
         "type": "Fan",
         "link": "https://amzn.to/44onm6F"
+      }
+    ]
+  },
+  {  
+    "name": "Config 2100€",
+    "date": "15/10/2023",
+    "description": "Config très haut de gamme",
+    "panier": "",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i5-13600KF",
+        "type": "Processor",
+        "link": "https://amzn.to/3QRgPy5"
+      },
+      {
+        "name": "Deepcool LS720 Noir",
+        "type": "Fan",
+        "link": "https://amzn.to/3YMm5oI"
+      },
+      {
+        "name": "MSI Pro B760-P Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/3QRCIgT"
+      },
+      {
+        "name": "Kingston FURY Renegade 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3QMEnnZ"
+      },
+      {
+        "name": "Sabrent M.2 NVMe SSD 2To",
+        "type": "SSD",
+        "link": "https://amzn.to/45FPlzL"
+      },
+      {
+        "name": "XFX Speedster MERC310 RX 7900XT",
+        "type": "Video Card",
+        "link": "https://amzn.to/3QR5X3d"
+      },
+      {
+        "name": "NZXT H9 Flow noir",
+        "type": "Case",
+        "link": "https://amzn.to/3E7oDUY"
+      },
+      {
+        "name": "ASUS ROG Strix 850W Gold",
+        "type": "PSU",
+        "link": "https://amzn.to/47Ln0di"
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2" 
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2"
+      }
+    ]
+  },
+  {  
+    "name": "Config 2100€",
+    "date": "15/10/2023",
+    "description": "Config très haut de gamme",
+    "panier": "",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i5-13600KF",
+        "type": "Processor",
+        "link": "https://amzn.to/3QRgPy5"
+      },
+      {
+        "name": "Deepcool LS720 Noir",
+        "type": "Fan",
+        "link": "https://amzn.to/3YMm5oI"
+      },
+      {
+        "name": "MSI Pro B760-P Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/3QRCIgT"
+      },
+      {
+        "name": "Kingston FURY Renegade 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3QMEnnZ"
+      },
+      {
+        "name": "Sabrent M.2 NVMe SSD 2To",
+        "type": "SSD",
+        "link": "https://amzn.to/45FPlzL"
+      },
+      {
+        "name": "XFX Speedster MERC310 RX 7900XT",
+        "type": "Video Card",
+        "link": "https://amzn.to/3QR5X3d"
+      },
+      {
+        "name": "NZXT H9 Flow noir",
+        "type": "Case",
+        "link": "https://amzn.to/3E7oDUY"
+      },
+      {
+        "name": "ASUS ROG Strix 850W Gold",
+        "type": "PSU",
+        "link": "https://amzn.to/47Ln0di"
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2" 
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2"
+      }
+    ]
+  },
+  {  
+    "name": "Config 2100€",
+    "date": "15/10/2023",
+    "description": "Config très haut de gamme",
+    "panier": "",
+    "tags": ["Gaming, Streaming, Création de contenu"],
+    "parts": [
+      {
+        "name": "i5-13600KF",
+        "type": "Processor",
+        "link": "https://amzn.to/3QRgPy5"
+      },
+      {
+        "name": "Deepcool LS720 Noir",
+        "type": "Fan",
+        "link": "https://amzn.to/3YMm5oI"
+      },
+      {
+        "name": "MSI Pro B760-P Wifi",
+        "type": "Motherboard",
+        "link": "https://amzn.to/3QRCIgT"
+      },
+      {
+        "name": "Kingston FURY Renegade 2x16Gb",
+        "type": "RAM",
+        "link": "https://amzn.to/3QMEnnZ"
+      },
+      {
+        "name": "Sabrent M.2 NVMe SSD 2To",
+        "type": "SSD",
+        "link": "https://amzn.to/45FPlzL"
+      },
+      {
+        "name": "XFX Speedster MERC310 RX 7900XT",
+        "type": "Video Card",
+        "link": "https://amzn.to/3QR5X3d"
+      },
+      {
+        "name": "NZXT H9 Flow noir",
+        "type": "Case",
+        "link": "https://amzn.to/3E7oDUY"
+      },
+      {
+        "name": "ASUS ROG Strix 850W Gold",
+        "type": "PSU",
+        "link": "https://amzn.to/47Ln0di"
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2" 
+      },
+      {
+        "name": "Deepcool FC120 RGB (Pack de 3)",
+        "type": "Fan",
+        "link": "https://amzn.to/3sp7YK2"
       }
     ]
   }
