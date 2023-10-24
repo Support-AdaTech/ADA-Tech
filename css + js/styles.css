@@ -70,7 +70,6 @@ footer .foo_logo::before {
 }
 body {
   height: 100vh;
-  zoom: 125%;
   overflow: hidden;
   margin: 0;
   line-height: 1.5;
@@ -78,6 +77,13 @@ body {
   color: #fff;
   background-color: #191a1d;
 }
+
+@media screen and (min-width: 1400px) {
+  body {
+    zoom: 125%;
+  }
+}
+
 .smooth {
   scroll-behavior: smooth;
   overflow-y: scroll;
