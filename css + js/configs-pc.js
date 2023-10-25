@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   const iconLinks = {
-    "Processor": "https://img.icons8.com/tiny-color/16/processor.png",
-    "Fan": "https://img.icons8.com/tiny-color/16/fan.png",
-    "Motherboard": "https://img.icons8.com/tiny-color/16/motherboard.png",
-    "RAM": "https://img.icons8.com/tiny-color/16/memory-slot.png",
-    "SSD": "https://img.icons8.com/tiny-color/16/ssd.png",
+    Processor: "https://img.icons8.com/tiny-color/16/processor.png",
+    Fan: "https://img.icons8.com/tiny-color/16/fan.png",
+    Motherboard: "https://img.icons8.com/tiny-color/16/motherboard.png",
+    RAM: "https://img.icons8.com/tiny-color/16/memory-slot.png",
+    SSD: "https://img.icons8.com/tiny-color/16/ssd.png",
     "Video Card": "https://img.icons8.com/tiny-color/16/video-card.png",
-    "Case": "https://img.icons8.com/tiny-color/16/server.png",
-    "PSU": "https://img.icons8.com/tiny-color/16/hdd.png",
+    Case: "https://img.icons8.com/tiny-color/16/server.png",
+    PSU: "https://img.icons8.com/tiny-color/16/hdd.png",
   };
 
   const grid = document.querySelector(".grid.g_three.config");

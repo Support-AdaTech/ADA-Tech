@@ -70,7 +70,6 @@ footer .foo_logo::before {
 }
 body {
   height: 100vh;
-  overflow: hidden;
   margin: 0;
   line-height: 1.5;
   font-family: "Inconsolata", monospace;
