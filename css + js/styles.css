@@ -104,6 +104,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+.fa-solid {
+  margin-right: 15px;
+}
 header,
 footer {
   position: relative;
