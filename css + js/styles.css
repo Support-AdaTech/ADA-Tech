@@ -536,7 +536,6 @@ section#section4 .block:hover {
 section#section4 .button {
   margin-top: 25px;
 }
-/* Add this CSS to style the "Panier" button */
 
 .panier-button {
   display: inline-block;
