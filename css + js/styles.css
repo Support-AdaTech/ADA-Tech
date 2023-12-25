@@ -895,11 +895,15 @@ footer .copy {
 }
 @media (max-width: 576px) {
   footer .copy {
-    flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
   footer .copy a {
     display: block;
+  }
+}
+@media (max-width: 480px) {
+  footer .copy {
+    flex-direction: column !important;
   }
 }
 footer .foo_logo {
