@@ -1,11 +1,22 @@
 function scrollh() {
-  $(".smooth").on("scroll", function () {
-    let scrollPos = $(this).scrollTop();
-    $(".content").css({
-      opacity: 1.5 - scrollPos / 400,
-    });
+  $(".smooth a").on("click", function (event) {
+    event.preventDefault();
+
+    const hash = this.hash;
+    const targetOffset = $(hash).offset().top;
+
+    $("html, body").animate(
+      {
+        scrollTop: targetOffset,
+      },
+      800,
+      function () {
+        window.location.hash = hash;
+      }
+    );
   });
 }
+
 scrollh();
 
 $(".autoplay")

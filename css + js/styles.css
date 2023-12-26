@@ -105,18 +105,16 @@ body {
   background-color: var(--dark-gray);
 }
 
-@media screen and (min-width: 1400px) {
-  body {
-    zoom: 125%;
-  }
-}
-
 .smooth {
   scroll-behavior: smooth;
-  overflow-y: visible;
   margin: 0 auto;
   width: calc(100% - 1em);
   padding: 0 1em;
+  height: 100%;
+}
+
+.smooth-content {
+  overflow-y: auto;
   height: 100%;
 }
 
