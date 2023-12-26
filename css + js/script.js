@@ -3,17 +3,30 @@ function scrollh() {
     event.preventDefault();
 
     const hash = this.hash;
-    const targetOffset = $(hash).offset().top;
+    const targetElement = $(hash);
 
-    $(".smooth-content").animate(
-      {
-        scrollTop: targetOffset,
-      },
-      800,
-      function () {
-        window.location.hash = hash;
+    if (targetElement.length) {
+      if ("scrollBehavior" in document.documentElement.style) {
+        // Native smooth scrolling
+        targetElement[0].scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest",
+        });
+      } else {
+        // Fallback for browsers that don't support smooth scrolling
+        $("html, body").animate(
+          {
+            scrollTop: targetElement.offset().top,
+          },
+          800
+        );
       }
-    );
+
+      setTimeout(function () {
+        window.location.hash = hash;
+      }, 800);
+    }
   });
 }
 

@@ -26,6 +26,12 @@
   --panier-dark: #cc231e7e;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .fa-solid {
   width: 10px;
   height: 10px;
