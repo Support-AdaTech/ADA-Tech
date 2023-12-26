@@ -1,11 +1,12 @@
 function scrollh() {
   $(".smooth a").on("click", function (event) {
-    event.preventDefault();
-
     const hash = this.hash;
     const targetElement = $(hash);
 
+    // Check if the target element exists
     if (targetElement.length) {
+      event.preventDefault();
+
       if ("scrollBehavior" in document.documentElement.style) {
         // Native smooth scrolling
         targetElement[0].scrollIntoView({
