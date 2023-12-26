@@ -5,7 +5,7 @@ function scrollh() {
     const hash = this.hash;
     const targetOffset = $(hash).offset().top;
 
-    $("html, body").animate(
+    $(".smooth-content").animate(
       {
         scrollTop: targetOffset,
       },
