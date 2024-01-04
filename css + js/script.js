@@ -89,7 +89,7 @@ $(".tes")
 
 //Snow from https://codepen.io/radum/pen/AqgObM
 
-var particleCount = 300;
+/*var particleCount = 300;
 var particleMax = 1000;
 var sky = document.querySelector("#section1");
 var canvas = document.createElement("canvas");
@@ -190,4 +190,4 @@ window.requestAnimFrame = (function () {
 onResize();
 window.addEventListener("resize", onResize, false);
 
-sky.appendChild(canvas);
+sky.appendChild(canvas);*/
