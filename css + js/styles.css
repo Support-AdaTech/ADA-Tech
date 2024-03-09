@@ -104,6 +104,7 @@ body {
   font-size: 125%;
   color: var(--white);
   background-color: var(--dark-gray);
+  overflow-x: hidden;
 }
 
 .smooth {
