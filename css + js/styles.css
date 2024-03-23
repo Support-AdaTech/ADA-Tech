@@ -351,6 +351,7 @@ section#section1 .content .blur {
   min-width: 240px;
   border-radius: 0.35em;
   background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 section#section1 .content .blur form {
