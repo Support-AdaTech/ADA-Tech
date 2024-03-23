@@ -1,37 +1,39 @@
-function scrollh() {
-  $(".smooth a").on("click", function (event) {
-    const hash = this.hash;
-    const targetElement = $(hash);
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a").forEach((anchor) => {
+    anchor.addEventListener("click", function (event) {
+      const hash = this.getAttribute("href");
+      const targetElement = document.querySelector(hash);
 
-    // Check if the target element exists
-    if (targetElement.length) {
-      event.preventDefault();
+      if (targetElement) {
+        event.preventDefault();
 
-      if ("scrollBehavior" in document.documentElement.style) {
-        // Native smooth scrolling
-        targetElement[0].scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-          inline: "nearest",
-        });
-      } else {
-        // Fallback for browsers that don't support smooth scrolling
-        $("html, body").animate(
-          {
-            scrollTop: targetElement.offset().top,
-          },
-          800
-        );
+        if ("scrollBehavior" in document.documentElement.style) {
+          // Native smooth scrolling for browsers that support it
+          targetElement.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest",
+          });
+
+          // Update the URL hash after scrolling
+          history.pushState(null, null, hash);
+        } else {
+          // Fallback for browsers without support for scrollBehavior
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: "smooth",
+          });
+
+          setTimeout(() => {
+            history.pushState(null, null, hash);
+          }, 400); // Adjust the timeout based on your scrolling duration
+        }
       }
-
-      setTimeout(function () {
-        window.location.hash = hash;
-      }, 800);
-    }
+    });
   });
-}
-
-scrollh();
+});
 
 $(".autoplay")
   .on("init", function (slick) {

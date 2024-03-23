@@ -28,588 +28,580 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#2d89ef" />
     <meta name="theme-color" content="#000000" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
   </head>
   <body>
-    <div class="smooth">
-      <div class="smooth-content">
-        <header id="top">
-          <a href="./"> <h3>Enigmatech</h3></a>
-          <nav>
+    <div class="smooth-content">
+      <header id="top">
+        <a href="./"> <h3>Enigmatech</h3></a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#section1" title="Home">Home</a>
+            </li>
+            <li>
+              <a href="#section2" title="Services">A propos</a>
+            </li>
+            <li>
+              <a href="#section3" title="Configs">Configs</a>
+            </li>
+            <li>
+              <a href="#section4" title="produits">Produits</a>
+            </li>
+            <li>
+              <a href="#section5" title="Avis">Avis</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="section1">
+          <div class="content">
+            <!--<h4 style="position: absolute; transform: translateY(-275px); font-size: 200%;">Joyeuses fêtes!</h4>-->
+            <div>
+              <h1>Enigmatech</h1>
+              <svg class="title">
+                <text x="0" y="40">Enigmatech</text>
+                <path d="M 0 66 50 61"></path>
+              </svg>
+              <p class="lead">
+                <strong>Bienvenue sur notre site web!</strong><br />
+                Ici, vous trouverez notamment les configs et les produits que
+                nous conseillons.
+              </p>
+              <br />
+              <p class="lead">
+                N'hésitez pas à nous suivre sur les réseaux! ↴<br />
+                <a
+                  class="leadlink"
+                  href="https://discord.gg/x6TqmpWC3u"
+                  target="blank"
+                  ><u>Discord</u></a
+                >
+                et
+                <a
+                  class="leadlink"
+                  href="https://www.tiktok.com/@enigmatechh?_t=8fDbKtRd008&amp;_r=1"
+                  target="blank"
+                  ><u>Tiktok</u></a
+                >.
+              </p>
+            </div>
+            <div class="blur">
+              <form>
+                <a class="button" href="#section2">Découvrir</a>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section id="section2">
+          <div id="features-container">
+            <!-- Features Section Description -->
+            <div id="features-description">
+              <h2>Nos services</h2>
+              <p>
+                Serveur spécialisé en informatique (matériel et logiciel),
+                création de config PC et conseil sur les composants/accessoires.
+                Staff réactif et à l'écoute pour répondre à vos besoins. Salons
+                de discussion tech, conseils, résolution de problèmes,
+                actualités, apprendre à monter un PC et giveaway.
+              </p>
+            </div>
+            <!-- Features of the Services -->
+            <div id="service-features">
+              <div id="feature">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="Computer Icon"
+                  id="computer-icon"
+                />
+                <h2 id="feature-title">Configs PC</h2>
+                <p>
+                  Nous créons votre propre config sur mesure, adaptée à vos
+                  besoins et à votre budget.
+                </p>
+                <a href="https://enigmatech.site/Configs/"
+                  ><button id="feature-button">Voir plus!</button></a
+                >
+              </div>
+              <div id="feature">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="Graphics Card Icon"
+                  id="gpu-icon"
+                />
+                <h2 id="feature-title">Valeurs Sures</h2>
+                <p>
+                  Une séléction des meilleurs prpduits tech niveau rapport
+                  qualité/prix rassemblés avec soins.
+                </p>
+                <a href="https://enigmatech.site/Produits/"
+                  ><button id="feature-button">Voir plus!</button></a
+                >
+              </div>
+              <div id="feature">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="FAQ Icon"
+                  id="faq-icon"
+                />
+                <h2 id="feature-title">FAQ</h2>
+                <p>
+                  Des réponses précises aux questions les plus courantes à
+                  propos de l'hardware ou software.
+                </p>
+                <a href="https://enigmatech.site/FAQ"
+                  ><button id="feature-button">Voir plus!</button></a
+                >
+              </div>
+              <div id="feature">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="News Icon"
+                  id="news-icon"
+                />
+                <h2 id="feature-title">Tech News</h2>
+                <p>
+                  Retrouvez le meilleur de l'actualité tech du mois! Internet,
+                  tech, AI...
+                </p>
+                <a href="https://enigmatech.site/News"
+                  ><button id="feature-button">Voir plus!</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="section3">
+          <h2>Configs PC</h2>
+          <p>
+            <strong
+              >Cliquez sur "Acheter" pour être redirigé vers le panier complet
+              de la config sur amazon!</strong
+            >
+          </p>
+          <p>
+            ATTENTION : Les produits hors-stock peuvent être exclus des paniers,
+            assurez-vous d'avoir 8 composants par config.
+          </p>
+          <hr />
+          <p>
+            <i
+              >Personnalisation et ajustement des configs sur demande sur
+              discord ;)</i
+            >
+          </p>
+          <div class="grid g_three config">
+            <!-- Config générées dynamiquement-->
+          </div>
+          <p><br /></p>
+          <hr />
+          <a
+            rel="noopener"
+            class="button"
+            href="https://enigmatech.site/Configs/"
+            target="_blank"
+            >Config personnalisées</a
+          >
+        </section>
+        <section id="section4">
+          <h2>Des valeurs sures</h2>
+          <p>
+            Une séléction des meilleurs composants et périphériques avec un très
+            bon rapport qualité/prix.
+          </p>
+          <div class="slider autoplay">
+            <div class="block">
+              <a
+                href="https://www.amazon.fr/HyperX-Casque-Gaming-Mobile-Bronze/dp/B00SAYCVTQ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=3QZR038PTQ2ZE&amp;keywords=hyperx+cloud+ii&amp;qid=1692780711&amp;sprefix=hyperx+cloud+ii%2Caps%2C72&amp;sr=8-2-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=206e939483e23346bbb27e93f0671b2f&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
+                target="blank"
+              >
+                <figure>
+                  <img
+                    src="https://m.media-amazon.com/images/I/31wOiy+Y4xL.jpg"
+                    alt="31wOiy+Y4xL"
+                  />
+                  <p>≃72.00€</p>
+                  <figcaption>HyperX Cloud II</figcaption>
+                </figure>
+                <p>Casque Gaming avec Micro pour PC/PS4/Mac, Gris</p></a
+              >
+            </div>
+            <div class="block">
+              <a
+                href="https://www.amazon.fr/MSI-Carte-m%C3%A8re-B760-P-DDR4/dp/B0BJW1G7VN?crid=3SXTQ3IE0B2DZ&amp;keywords=b760p+wifi&amp;qid=1692721809&amp;s=computers&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=b760p%2Ccomputers%2C87&amp;sr=1-1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=d48b5a51700c5f734e4024855355befa&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
+                target="blank"
+              >
+                <figure>
+                  <img
+                    src="https://m.media-amazon.com/images/I/51dOHDzwW5L.jpg"
+                    alt="51dOHDzwW5L"
+                  />
+                  <p>≃178€</p>
+                  <figcaption>MSI Pro B760-P WiFi</figcaption>
+                </figure>
+                <p>Carte mère DDR4 ATX, Intel 12è et 13è gen (LGA 1700)</p></a
+              >
+            </div>
+            <div class="block">
+              <a
+                href="https://www.amazon.fr/Keychron-Bluetooth-Wireless-m%C3%A9canique-Windows-Version/dp/B09GX73MCP?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1IEKBRQOF1DSK&amp;keywords=Keychron+K2+Wireless+azerty&amp;qid=1692722134&amp;sprefix=keychron+k2+wireless+azerty%2Caps%2C66&amp;sr=8-3&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=e86c1061ac55ce2f877f6586a1aa1997&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
+                target="blank"
+              >
+                <figure>
+                  <img
+                    src="https://www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_360x.jpg?v=1650445595%20360w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_540x.jpg?v=1650445595%20540w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_720x.jpg?v=1650445595%20720w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_900x.jpg?v=1650445595%20900w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_1080x.jpg?v=1650445595%201080w"
+                    alt="Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_360x"
+                  />
+                  <p>≃114€</p>
+                  <figcaption>Keychron K2 75% Wireless</figcaption>
+                </figure>
+                <p>Clavier QWERTY sans fil avec switchs Gateron G Pro Red</p></a
+              >
+            </div>
+            <div class="block">
+              <a
+                href="https://www.amazon.fr/DeepCool-Watercooling-LT720-Refroidisseur-refroidisseur/dp/B0B9SKBGFP?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=3KXGS89Q6VZ4L&amp;keywords=lt720&amp;qid=1692718556&amp;s=computers&amp;sprefix=lt720%2Ccomputers%2C72&amp;sr=1-1&amp;th=1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=e1c39349a84579d057b700988ee6d153&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
+                target="blank"
+              >
+                <figure>
+                  <img
+                    src="https://m.media-amazon.com/images/I/31vR+qTk+ML.jpg"
+                    alt="31vR+qTk+ML"
+                  />
+                  <p>≃145€</p>
+                  <figcaption>DeepCool LT720</figcaption>
+                </figure>
+                <p>
+                  Watercooling CPU 360mm ARGB pour AM4/AM5 et LGA 1700/1200
+                </p></a
+              >
+            </div>
+            <div class="block">
+              <a
+                href="https://www.amazon.fr/AOC-Gaming-24G2SPAE-Haut-Parleur-DisplayPort/dp/B0B3JHP728?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2KE9V6YBOAZ7O&amp;keywords=165hz+ips+1080p+24%22&amp;qid=1692723476&amp;sprefix=165hz+ips+1080p+24%22%2Caps%2C72&amp;sr=8-4&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=9ea8b938984b1f1063eb828744ca6af0&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
+                target="blank"
+              >
+                <figure>
+                  <img
+                    src="https://m.media-amazon.com/images/I/41dKb4q6WcL.jpg"
+                    alt="41dKb4q6WcL"
+                  />
+                  <p>≃145€</p>
+                  <figcaption>AOC Gaming 24G2SPAE</figcaption>
+                </figure>
+                <p>Écran IPS FHD 24" 165Hz, 1ms MPRT, FreeSync/G-Sync</p></a
+              >
+            </div>
+            <div class="block">
+              <a
+                href="https://www.amazon.fr/Thermalright-Refroidisseur-refroidisseur-ventilateur-technologie/dp/B09NSTR7JZ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1RD976EAR56QB&amp;keywords=thermalright+peerless+assassin&amp;qid=1692723649&amp;sprefix=thermalright+peerless+assassin%2Caps%2C70&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=ee9865baf29511c9a26f7537f9c9424e&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
+                target="blank"
+              >
+                <figure>
+                  <img
+                    src="https://m.media-amazon.com/images/I/41hFTmi5aUL.jpg"
+                    alt="41hFTmi5aUL"
+                  />
+                  <p>≃40€</p>
+                  <figcaption>Thermalright Peerless Assassin 120 SE</figcaption>
+                </figure>
+                <p>
+                  Ventirad CPU double ventilateur TL-C12C PWM, 6 caloducs
+                </p></a
+              >
+            </div>
+          </div>
+          <p>
+            Cliquez sur chaque produit pour être redirigé vers amazon.fr. Si
+            vous avez une suggestion d'ajout de produit, n'hésitez pas à ouvrir
+            un ticket sur le
+            <a
+              class="leadlink"
+              href="https://discord.gg/x6TqmpWC3u"
+              target="blank"
+              ><u>discord</u></a
+            >
+            :)
+          </p>
+          <a
+            rel="noopener"
+            class="button"
+            href="https://enigmatech.site/Produits/"
+            target="_blank"
+            >Tous les produits</a
+          >
+        </section>
+        <section id="section5">
+          <h2>Avis</h2>
+          <p>
+            Voici quelques avis des membres du serveur
+            <a
+              class="leadlink"
+              href="https://discord.gg/x6TqmpWC3u"
+              target="blank"
+              ><u>Discord</u></a
+            >
+            ayant été aidés par le staff de <strong>Enigmatech</strong>.
+          </p>
+          <div class="slider tes">
+            <div class="blockquote">
+              <img
+                width="100"
+                height="100"
+                src="https://img.icons8.com/plasticine/100/user-male-circle.png"
+                alt="user-male-circle"
+              />
+              <div class="author">_romeo</div>
+              <div class="pos">"Un serveur incroyable "</div>
+              <blockquote>
+                <p>
+                  N'étant pas du domaine de l'informatique, j'avais besoin
+                  d'avis de connaisseurs. Et ce discord est vraiment l'endroit
+                  idéal pour être orienté, conseillé et accompagné dans le choix
+                  ou l'achat de matériel. L'ambiance y est agréable et l'accueil
+                  chaleureux, réponse rapide et efficace, et surtout une
+                  disponibilité à toute épreuve, de jour comme de nuit ! Même
+                  pour parler, n'hésitez pas à y faire un tour !
+                </p>
+              </blockquote>
+            </div>
+            <div class="blockquote">
+              <img
+                width="100"
+                height="100"
+                src="https://img.icons8.com/plasticine/100/user-female-circle.png"
+                alt="user-female-circle"
+              />
+              <div class="author">.mylla</div>
+              <div class="pos">" Très efficaces "</div>
+              <blockquote>
+                <p>
+                  Une complète débutante, mais ils ont su m'aider et me
+                  conseiller en prenant en compte mes attentes :) J'ai pu monter
+                  mon pc sans soucis et il fonctionne à merveille. Merci !
+                </p>
+              </blockquote>
+            </div>
+            <div class="blockquote">
+              <img
+                width="100"
+                height="100"
+                src="https://img.icons8.com/plasticine/100/user-male-circle.png"
+                alt="user-male-circle"
+              />
+              <div class="author">myzzounours</div>
+              <div class="pos">"Config"</div>
+              <blockquote>
+                <p>
+                  Très bon serveur, à répondu à toutes mes attentes, le staff
+                  est très compétent et nous guide dans nos configurations.
+                </p>
+              </blockquote>
+            </div>
+            <div class="blockquote">
+              <img
+                width="100"
+                height="100"
+                src="https://img.icons8.com/plasticine/100/user-female-circle.png"
+                alt="user-female-circle"
+              />
+              <div class="author">tazou9227</div>
+              <div class="pos">" Très bon serveur ♡"</div>
+              <blockquote>
+                <p>
+                  Bonjour ! Je suis arrivée sur ce serveur il y a une petite
+                  semaine et je m'y sens déjà comme chez moi. Si vous recherchez
+                  une bonne ambiance ce serveur est fait pour vous, venez nous
+                  rejoindre vous le regretterez pas. J'ajoute aussi que les
+                  stafs et fondas sont très à l'écoute, pédagogue et se
+                  demandent à fond pour que vous êtes le plus possible
+                  satisfait. Je recommande à 100% ce serveur d'informatique :) ♡
+                </p>
+              </blockquote>
+            </div>
+            <div class="blockquote">
+              <img
+                width="100"
+                height="100"
+                src="https://img.icons8.com/plasticine/100/user-male-circle.png"
+                alt="user-male-circle"
+              />
+              <div class="author">Vindex</div>
+              <div class="pos">"Je conseil ce serveur"</div>
+              <blockquote>
+                <p>
+                  Serveur très acceuillant, avec des personnes compétentes avec
+                  de bon conseils. Je recommande ce serveur si vous avez un
+                  problème si vous avez un probleme que ce soit en hardware ou
+                  software.
+                </p>
+              </blockquote>
+            </div>
+            <div class="blockquote">
+              <img
+                width="100"
+                height="100"
+                src="https://img.icons8.com/plasticine/100/user-female-circle.png"
+                alt="user-female-circle"
+              />
+              <div class="author">Opline</div>
+              <div class="pos">
+                "Super serveur avec plein de fonctionnalités."
+              </div>
+              <blockquote>
+                <p>
+                  Serveur pour échanger et partager sur l'informatique, les jeux
+                  et les ordinateurs.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+        <section id="pub">
+          <h2>Rejoins notre Discord ou follow nous sur TikTok!</h2>
+          <p>
+            Apprends, partage, profite et trouve la réponse à tes questions!
+          </p>
+          <div class="reseaux">
+            <a
+              rel="noopener"
+              class="button"
+              href="https://discord.com/invite/x6TqmpWC3u"
+              target="_blank"
+              >Discord</a
+            >
+            <a
+              rel="noopener"
+              class="button"
+              href="https://www.tiktok.com/@enigmatechh?_t=8fDbKtRd008&amp;_r=1"
+              target="_blank"
+              >Tiktok</a
+            >
+          </div>
+        </section>
+      </main>
+      <footer id="bottom">
+        <div class="widgets">
+          <div class="f_logo">
+            <h3 class="foo_logo">Enigmatech</h3>
+          </div>
+          <div class="widget">
+            <h5>Suis nous</h5>
             <ul>
               <li>
-                <a href="#section1" title="Home">Home</a>
+                <a
+                  href="https://discord.com/invite/x6TqmpWC3u"
+                  title="Discord"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Discord</a
+                >
               </li>
               <li>
-                <a href="#section2" title="Services">A propos</a>
+                <a
+                  href="https://www.tiktok.com/@enigmatechh?_t=8fDbKtRd008&amp;_r=1"
+                  title="Tiktok"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Tiktok</a
+                >
               </li>
               <li>
-                <a href="#section3" title="Configs">Configs</a>
-              </li>
-              <li>
-                <a href="#section4" title="produits">Produits</a>
-              </li>
-              <li>
-                <a href="#section5" title="Avis">Avis</a>
+                <a
+                  href="https://github.com/discord-enigmatech"
+                  title="GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
               </li>
             </ul>
-          </nav>
-        </header>
-        <main>
-          <section id="section1">
-            <div class="content">
-              <!--<h4 style="position: absolute; transform: translateY(-275px); font-size: 200%;">Joyeuses fêtes!</h4>-->
-              <div>
-                <h1>Enigmatech</h1>
-                <svg class="title">
-                  <text x="0" y="40">Enigmatech</text>
-                  <path d="M 0 66 50 61"></path>
-                </svg>
-                <p class="lead">
-                  <strong>Bienvenue sur notre site web!</strong><br />
-                  Ici, vous trouverez notamment les configs et les produits que
-                  nous conseillons.
-                </p>
-                <br />
-                <p class="lead">
-                  N'hésitez pas à nous suivre sur les réseaux! ↴<br />
-                  <a
-                    class="leadlink"
-                    href="https://discord.gg/x6TqmpWC3u"
-                    target="blank"
-                    ><u>Discord</u></a
-                  >
-                  et
-                  <a
-                    class="leadlink"
-                    href="https://www.tiktok.com/@enigmatechh?_t=8fDbKtRd008&amp;_r=1"
-                    target="blank"
-                    ><u>Tiktok</u></a
-                  >.
-                </p>
-              </div>
-              <div class="blur">
-                <form>
-                  <a class="button" href="#section2">Découvrir</a>
-                </form>
-              </div>
-            </div>
-          </section>
-          <section id="section2">
-            <div id="features-container">
-              <!-- Features Section Description -->
-              <div id="features-description">
-                <h2>Nos services</h2>
-                <p>
-                  Serveur spécialisé en informatique (matériel et logiciel),
-                  création de config PC et conseil sur les
-                  composants/accessoires. Staff réactif et à l'écoute pour
-                  répondre à vos besoins. Salons de discussion tech, conseils,
-                  résolution de problèmes, actualités, apprendre à monter un PC
-                  et giveaway.
-                </p>
-              </div>
-              <!-- Features of the Services -->
-              <div id="service-features">
-                <div id="feature">
-                  <img
-                    src="data:image/png;base64,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"
-                    alt="Computer Icon"
-                    id="computer-icon"
-                  />
-                  <h2 id="feature-title">Configs PC</h2>
-                  <p>
-                    Nous créons votre propre config sur mesure, adaptée à vos
-                    besoins et à votre budget.
-                  </p>
-                  <a href="https://enigmatech.site/Configs/"
-                    ><button id="feature-button">Voir plus!</button></a
-                  >
-                </div>
-                <div id="feature">
-                  <img
-                    src="data:image/png;base64,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"
-                    alt="Graphics Card Icon"
-                    id="gpu-icon"
-                  />
-                  <h2 id="feature-title">Valeurs Sures</h2>
-                  <p>
-                    Une séléction des meilleurs prpduits tech niveau rapport
-                    qualité/prix rassemblés avec soins.
-                  </p>
-                  <a href="https://enigmatech.site/Produits/"
-                    ><button id="feature-button">Voir plus!</button></a
-                  >
-                </div>
-                <div id="feature">
-                  <img
-                    src="data:image/png;base64,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"
-                    alt="FAQ Icon"
-                    id="faq-icon"
-                  />
-                  <h2 id="feature-title">FAQ</h2>
-                  <p>
-                    Des réponses précises aux questions les plus courantes à
-                    propos de l'hardware ou software.
-                  </p>
-                  <a href="https://enigmatech.site/FAQ"
-                    ><button id="feature-button">Voir plus!</button></a
-                  >
-                </div>
-                <div id="feature">
-                  <img
-                    src="data:image/png;base64,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"
-                    alt="News Icon"
-                    id="news-icon"
-                  />
-                  <h2 id="feature-title">Tech News</h2>
-                  <p>
-                    Retrouvez le meilleur de l'actualité tech du mois! Internet,
-                    tech, AI...
-                  </p>
-                  <a href="https://enigmatech.site/News"
-                    ><button id="feature-button">Voir plus!</button></a
-                  >
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="section3">
-            <h2>Configs PC</h2>
-            <p>
-              <strong
-                >Cliquez sur "Acheter" pour être redirigé vers le panier complet
-                de la config sur amazon!</strong
-              >
-            </p>
-            <p>
-              ATTENTION : Les produits hors-stock peuvent être exclus des
-              paniers, assurez-vous d'avoir 8 composants par config.
-            </p>
-            <hr />
-            <p>
-              <i
-                >Personnalisation et ajustement des configs sur demande sur
-                discord ;)</i
-              >
-            </p>
-            <div class="grid g_three config">
-              <!-- Config générées dynamiquement-->
-            </div>
-            <p><br /></p>
-            <hr />
+          </div>
+          <div class="widget">
+            <h5>Pages</h5>
+            <ul>
+              <li>
+                <a href="#section2">Nos services</a>
+              </li>
+              <li>
+                <a href="#section2">  - FAQ</a>
+              </li>
+              <li>
+                <a href="#section2">  - Tech News</a>
+              </li>
+              <li>
+                <a href="#section3">Config</a>
+              </li>
+              <li>
+                <a href="#section4">Produits</a>
+              </li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h5>Fondateurs</h5>
+            <ul>
+              <li>baba35</li>
+              <li>cyber_josh</li>
+              <li>cl4ptrap444</li>
+              <li>oll1p</li>
+              <li>moustafamily</li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h5>Contacts</h5>
+            <ul>
+              <li>France</li>
+              <li>Pro : EnigmaTechpro@protonmail.com</li>
+              <li>Dev : cyber_josh (discord)</li>
+              <li>
+                Ticket sur
+                <a
+                  rel="noopener"
+                  href="https://discord.com/invite/x6TqmpWC3u"
+                  target="_blank"
+                  ><u>Discord</u></a
+                >
+              </li>
+              <li>24/24 7/7</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy">
+          <p>
+            Made with <span class="heart">♥</span> by
+            <a rel="noopener" href="https://projectadonis.tech/" target="_blank"
+              >Josh</a
+            >
+            Original design © 2019,
+            <a
+              href="https://twitter.com/andrejsharapov"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Andrej Sharapov</a
+            >
+          </p>
+          <p><a href="#section1">Retour ↑ en haut</a></p>
+        </div>
+        <div class="copy">
+          <p>
             <a
               rel="noopener"
-              class="button"
-              href="https://enigmatech.site/Configs/"
+              href="https://enigmatech.site/Disclaimer/"
               target="_blank"
-              >Config personnalisées</a
+              >Déclaration d'affiliation : En tant qu'Associé Amazon, nous
+              pouvons générer des commissions sur les achats admissibles
+              effectués sur Amazon.fr.</a
             >
-          </section>
-          <section id="section4">
-            <h2>Des valeurs sures</h2>
-            <p>
-              Une séléction des meilleurs composants et périphériques avec un
-              très bon rapport qualité/prix.
-            </p>
-            <div class="slider autoplay">
-              <div class="block">
-                <a
-                  href="https://www.amazon.fr/HyperX-Casque-Gaming-Mobile-Bronze/dp/B00SAYCVTQ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=3QZR038PTQ2ZE&amp;keywords=hyperx+cloud+ii&amp;qid=1692780711&amp;sprefix=hyperx+cloud+ii%2Caps%2C72&amp;sr=8-2-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=206e939483e23346bbb27e93f0671b2f&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
-                  target="blank"
-                >
-                  <figure>
-                    <img
-                      src="https://m.media-amazon.com/images/I/31wOiy+Y4xL.jpg"
-                      alt="31wOiy+Y4xL"
-                    />
-                    <p>≃72.00€</p>
-                    <figcaption>HyperX Cloud II</figcaption>
-                  </figure>
-                  <p>Casque Gaming avec Micro pour PC/PS4/Mac, Gris</p></a
-                >
-              </div>
-              <div class="block">
-                <a
-                  href="https://www.amazon.fr/MSI-Carte-m%C3%A8re-B760-P-DDR4/dp/B0BJW1G7VN?crid=3SXTQ3IE0B2DZ&amp;keywords=b760p+wifi&amp;qid=1692721809&amp;s=computers&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=b760p%2Ccomputers%2C87&amp;sr=1-1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=d48b5a51700c5f734e4024855355befa&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
-                  target="blank"
-                >
-                  <figure>
-                    <img
-                      src="https://m.media-amazon.com/images/I/51dOHDzwW5L.jpg"
-                      alt="51dOHDzwW5L"
-                    />
-                    <p>≃178€</p>
-                    <figcaption>MSI Pro B760-P WiFi</figcaption>
-                  </figure>
-                  <p>Carte mère DDR4 ATX, Intel 12è et 13è gen (LGA 1700)</p></a
-                >
-              </div>
-              <div class="block">
-                <a
-                  href="https://www.amazon.fr/Keychron-Bluetooth-Wireless-m%C3%A9canique-Windows-Version/dp/B09GX73MCP?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1IEKBRQOF1DSK&amp;keywords=Keychron+K2+Wireless+azerty&amp;qid=1692722134&amp;sprefix=keychron+k2+wireless+azerty%2Caps%2C66&amp;sr=8-3&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=e86c1061ac55ce2f877f6586a1aa1997&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
-                  target="blank"
-                >
-                  <figure>
-                    <img
-                      src="https://www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_360x.jpg?v=1650445595%20360w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_540x.jpg?v=1650445595%20540w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_720x.jpg?v=1650445595%20720w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_900x.jpg?v=1650445595%20900w,%20//www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_1080x.jpg?v=1650445595%201080w"
-                      alt="Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color_360x"
-                    />
-                    <p>≃114€</p>
-                    <figcaption>Keychron K2 75% Wireless</figcaption>
-                  </figure>
-                  <p>
-                    Clavier QWERTY sans fil avec switchs Gateron G Pro Red
-                  </p></a
-                >
-              </div>
-              <div class="block">
-                <a
-                  href="https://www.amazon.fr/DeepCool-Watercooling-LT720-Refroidisseur-refroidisseur/dp/B0B9SKBGFP?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=3KXGS89Q6VZ4L&amp;keywords=lt720&amp;qid=1692718556&amp;s=computers&amp;sprefix=lt720%2Ccomputers%2C72&amp;sr=1-1&amp;th=1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=e1c39349a84579d057b700988ee6d153&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
-                  target="blank"
-                >
-                  <figure>
-                    <img
-                      src="https://m.media-amazon.com/images/I/31vR+qTk+ML.jpg"
-                      alt="31vR+qTk+ML"
-                    />
-                    <p>≃145€</p>
-                    <figcaption>DeepCool LT720</figcaption>
-                  </figure>
-                  <p>
-                    Watercooling CPU 360mm ARGB pour AM4/AM5 et LGA 1700/1200
-                  </p></a
-                >
-              </div>
-              <div class="block">
-                <a
-                  href="https://www.amazon.fr/AOC-Gaming-24G2SPAE-Haut-Parleur-DisplayPort/dp/B0B3JHP728?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2KE9V6YBOAZ7O&amp;keywords=165hz+ips+1080p+24%22&amp;qid=1692723476&amp;sprefix=165hz+ips+1080p+24%22%2Caps%2C72&amp;sr=8-4&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=9ea8b938984b1f1063eb828744ca6af0&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
-                  target="blank"
-                >
-                  <figure>
-                    <img
-                      src="https://m.media-amazon.com/images/I/41dKb4q6WcL.jpg"
-                      alt="41dKb4q6WcL"
-                    />
-                    <p>≃145€</p>
-                    <figcaption>AOC Gaming 24G2SPAE</figcaption>
-                  </figure>
-                  <p>Écran IPS FHD 24" 165Hz, 1ms MPRT, FreeSync/G-Sync</p></a
-                >
-              </div>
-              <div class="block">
-                <a
-                  href="https://www.amazon.fr/Thermalright-Refroidisseur-refroidisseur-ventilateur-technologie/dp/B09NSTR7JZ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1RD976EAR56QB&amp;keywords=thermalright+peerless+assassin&amp;qid=1692723649&amp;sprefix=thermalright+peerless+assassin%2Caps%2C70&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&amp;linkCode=ll1&amp;tag=enigmatech07-21&amp;linkId=ee9865baf29511c9a26f7537f9c9424e&amp;language=fr_FR&amp;ref_=as_li_ss_tl"
-                  target="blank"
-                >
-                  <figure>
-                    <img
-                      src="https://m.media-amazon.com/images/I/41hFTmi5aUL.jpg"
-                      alt="41hFTmi5aUL"
-                    />
-                    <p>≃40€</p>
-                    <figcaption>
-                      Thermalright Peerless Assassin 120 SE
-                    </figcaption>
-                  </figure>
-                  <p>
-                    Ventirad CPU double ventilateur TL-C12C PWM, 6 caloducs
-                  </p></a
-                >
-              </div>
-            </div>
-            <p>
-              Cliquez sur chaque produit pour être redirigé vers amazon.fr. Si
-              vous avez une suggestion d'ajout de produit, n'hésitez pas à
-              ouvrir un ticket sur le
-              <a
-                class="leadlink"
-                href="https://discord.gg/x6TqmpWC3u"
-                target="blank"
-                ><u>discord</u></a
-              >
-              :)
-            </p>
-            <a
-              rel="noopener"
-              class="button"
-              href="https://enigmatech.site/Produits/"
-              target="_blank"
-              >Tous les produits</a
-            >
-          </section>
-          <section id="section5">
-            <h2>Avis</h2>
-            <p>
-              Voici quelques avis des membres du serveur
-              <a
-                class="leadlink"
-                href="https://discord.gg/x6TqmpWC3u"
-                target="blank"
-                ><u>Discord</u></a
-              >
-              ayant été aidés par le staff de <strong>Enigmatech</strong>.
-            </p>
-            <div class="slider tes">
-              <div class="blockquote">
-                <img
-                  width="100"
-                  height="100"
-                  src="https://img.icons8.com/plasticine/100/user-male-circle.png"
-                  alt="user-male-circle"
-                />
-                <div class="author">_romeo</div>
-                <div class="pos">"Un serveur incroyable "</div>
-                <blockquote>
-                  <p>
-                    N'étant pas du domaine de l'informatique, j'avais besoin
-                    d'avis de connaisseurs. Et ce discord est vraiment l'endroit
-                    idéal pour être orienté, conseillé et accompagné dans le
-                    choix ou l'achat de matériel. L'ambiance y est agréable et
-                    l'accueil chaleureux, réponse rapide et efficace, et surtout
-                    une disponibilité à toute épreuve, de jour comme de nuit !
-                    Même pour parler, n'hésitez pas à y faire un tour !
-                  </p>
-                </blockquote>
-              </div>
-              <div class="blockquote">
-                <img
-                  width="100"
-                  height="100"
-                  src="https://img.icons8.com/plasticine/100/user-female-circle.png"
-                  alt="user-female-circle"
-                />
-                <div class="author">.mylla</div>
-                <div class="pos">" Très efficaces "</div>
-                <blockquote>
-                  <p>
-                    Une complète débutante, mais ils ont su m'aider et me
-                    conseiller en prenant en compte mes attentes :) J'ai pu
-                    monter mon pc sans soucis et il fonctionne à merveille.
-                    Merci !
-                  </p>
-                </blockquote>
-              </div>
-              <div class="blockquote">
-                <img
-                  width="100"
-                  height="100"
-                  src="https://img.icons8.com/plasticine/100/user-male-circle.png"
-                  alt="user-male-circle"
-                />
-                <div class="author">myzzounours</div>
-                <div class="pos">"Config"</div>
-                <blockquote>
-                  <p>
-                    Très bon serveur, à répondu à toutes mes attentes, le staff
-                    est très compétent et nous guide dans nos configurations.
-                  </p>
-                </blockquote>
-              </div>
-              <div class="blockquote">
-                <img
-                  width="100"
-                  height="100"
-                  src="https://img.icons8.com/plasticine/100/user-female-circle.png"
-                  alt="user-female-circle"
-                />
-                <div class="author">tazou9227</div>
-                <div class="pos">" Très bon serveur ♡"</div>
-                <blockquote>
-                  <p>
-                    Bonjour ! Je suis arrivée sur ce serveur il y a une petite
-                    semaine et je m'y sens déjà comme chez moi. Si vous
-                    recherchez une bonne ambiance ce serveur est fait pour vous,
-                    venez nous rejoindre vous le regretterez pas. J'ajoute aussi
-                    que les stafs et fondas sont très à l'écoute, pédagogue et
-                    se demandent à fond pour que vous êtes le plus possible
-                    satisfait. Je recommande à 100% ce serveur d'informatique :)
-                    ♡
-                  </p>
-                </blockquote>
-              </div>
-              <div class="blockquote">
-                <img
-                  width="100"
-                  height="100"
-                  src="https://img.icons8.com/plasticine/100/user-male-circle.png"
-                  alt="user-male-circle"
-                />
-                <div class="author">Vindex</div>
-                <div class="pos">"Je conseil ce serveur"</div>
-                <blockquote>
-                  <p>
-                    Serveur très acceuillant, avec des personnes compétentes
-                    avec de bon conseils. Je recommande ce serveur si vous avez
-                    un problème si vous avez un probleme que ce soit en hardware
-                    ou software.
-                  </p>
-                </blockquote>
-              </div>
-              <div class="blockquote">
-                <img
-                  width="100"
-                  height="100"
-                  src="https://img.icons8.com/plasticine/100/user-female-circle.png"
-                  alt="user-female-circle"
-                />
-                <div class="author">Opline</div>
-                <div class="pos">
-                  "Super serveur avec plein de fonctionnalités."
-                </div>
-                <blockquote>
-                  <p>
-                    Serveur pour échanger et partager sur l'informatique, les
-                    jeux et les ordinateurs.
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-          </section>
-          <section id="pub">
-            <h2>Rejoins notre Discord ou follow nous sur TikTok!</h2>
-            <p>
-              Apprends, partage, profite et trouve la réponse à tes questions!
-            </p>
-            <div class="reseaux">
-              <a
-                rel="noopener"
-                class="button"
-                href="https://discord.com/invite/x6TqmpWC3u"
-                target="_blank"
-                >Discord</a
-              >
-              <a
-                rel="noopener"
-                class="button"
-                href="https://www.tiktok.com/@enigmatechh?_t=8fDbKtRd008&amp;_r=1"
-                target="_blank"
-                >Tiktok</a
-              >
-            </div>
-          </section>
-        </main>
-        <footer id="bottom">
-          <div class="widgets">
-            <div class="f_logo">
-              <h3 class="foo_logo">Enigmatech</h3>
-            </div>
-            <div class="widget">
-              <h5>Suis nous</h5>
-              <ul>
-                <li>
-                  <a
-                    href="https://discord.com/invite/x6TqmpWC3u"
-                    title="Discord"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Discord</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.tiktok.com/@enigmatechh?_t=8fDbKtRd008&amp;_r=1"
-                    title="Tiktok"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Tiktok</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/discord-enigmatech"
-                    title="GitHub"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >GitHub</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h5>Pages</h5>
-              <ul>
-                <li>
-                  <a href="#section2">Nos services</a>
-                </li>
-                <li>
-                  <a href="#section2">  - FAQ</a>
-                </li>
-                <li>
-                  <a href="#section2">  - Tech News</a>
-                </li>
-                <li>
-                  <a href="#section3">Config</a>
-                </li>
-                <li>
-                  <a href="#section4">Produits</a>
-                </li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h5>Fondateurs</h5>
-              <ul>
-                <li>baba35</li>
-                <li>cyber_josh</li>
-                <li>cl4ptrap444</li>
-                <li>oll1p</li>
-                <li>moustafamily</li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h5>Contacts</h5>
-              <ul>
-                <li>France</li>
-                <li>Pro : EnigmaTechpro@protonmail.com</li>
-                <li>Dev : cyber_josh (discord)</li>
-                <li>
-                  Ticket sur
-                  <a
-                    rel="noopener"
-                    href="https://discord.com/invite/x6TqmpWC3u"
-                    target="_blank"
-                    ><u>Discord</u></a
-                  >
-                </li>
-                <li>24/24 7/7</li>
-              </ul>
-            </div>
-          </div>
-          <div class="copy">
-            <p>
-              Made with <span class="heart">♥</span> by
-              <a
-                rel="noopener"
-                href="https://projectadonis.tech/"
-                target="_blank"
-                >Josh</a
-              >
-              Original design © 2019,
-              <a
-                href="https://twitter.com/andrejsharapov"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Andrej Sharapov</a
-              >
-            </p>
-            <p><a href="#section1">Retour ↑ en haut</a></p>
-          </div>
-          <div class="copy">
-            <p>
-              <a
-                rel="noopener"
-                href="https://enigmatech.site/Disclaimer/"
-                target="_blank"
-                >Déclaration d'affiliation : En tant qu'Associé Amazon, nous
-                pouvons générer des commissions sur les achats admissibles
-                effectués sur Amazon.fr.</a
-              >
-            </p>
-          </div>
-          <div class="copy">
-            <p><br /></p>
-          </div>
-        </footer>
-      </div>
+          </p>
+        </div>
+        <div class="copy">
+          <p><br /></p>
+        </div>
+      </footer>
     </div>
     <script src="css%20+%20js/configs-pc.js"></script>
     <link
