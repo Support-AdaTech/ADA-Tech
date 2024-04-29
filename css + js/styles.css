@@ -852,105 +852,135 @@ footer {
   border-top: 2px solid var(--dark-secondary);
   background-color: var(--dark-gray);
 }
+
 @media (min-width: 480px) {
   footer .widgets {
     display: grid;
     width: 100%;
     grid-gap: 1em;
-    grid-template-areas: "l l" "w1 w2" "w3 w4";
+    grid-template-areas: "l w1 w2" "w3 w4 w4";
   }
 }
+
 @media (min-width: 768px) {
   footer .widgets {
     grid-template-areas: "l w1 w2" "w3 w4 w4";
   }
 }
+
 @media (min-width: 1024px) {
   footer .widgets {
     grid-template-areas: "l w1 w2 w3 w4";
   }
 }
+
 footer .widgets .f_logo {
   grid-area: l;
   margin-bottom: 1em;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Align the logo with the widgets */
   align-items: center;
 }
+
 footer .widgets .widget {
   margin-bottom: 1.5em;
 }
+
 footer .widgets .widget:nth-of-type(2) {
   grid-area: w1;
 }
+
 footer .widgets .widget:nth-of-type(3) {
   grid-area: w2;
 }
+
 footer .widgets .widget:nth-of-type(4) {
   grid-area: w3;
 }
+
 footer .widgets .widget:last-child {
   grid-area: w4;
 }
+
 footer .copy {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 576px) {
-  footer .copy {
-    text-align: left;
-  }
-  footer .copy a {
-    display: block;
-  }
+
+.credits {
+  margin-right: 30px !important;
 }
-@media (max-width: 480px) {
-  footer .copy {
-    flex-direction: column !important;
-  }
-}
+
 footer .foo_logo {
   position: relative;
   font-family: "Montserrat", sans-serif;
   color: var(--light-primary);
 }
+
 footer .foo_logo::before {
   background-color: var(--light-primary);
 }
+
 footer h5 {
   margin-bottom: 1em;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
 }
+
 footer h5.follow {
   color: var(--light-primary);
 }
+
 footer li {
   will-change: transform;
   transition: transform 200ms ease-in;
 }
+
 footer li i {
   opacity: 0.5;
 }
+
 footer li:hover,
 footer li.active {
   transform: translateX(5px);
 }
+
 footer .copy {
   margin-top: 1em;
   border-top: 2px solid var(--dark-secondary);
 }
+
 footer .copy p {
   margin: 0.75em 0 0;
 }
+
 footer .copy .heart {
   position: relative;
   display: inline-block;
   color: var(--light-primary);
   animation: hearts 0.6s cubic-bezier(0.18, 0.89, 0.29, 1.05) infinite;
 }
+
+@media (max-width: 576px) {
+  footer .copy {
+    text-align: center;
+  }
+  footer .copy {
+    display: block;
+  }
+  footer .credits {
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .copy {
+    flex-direction: column !important;
+  }
+}
+
 @-moz-keyframes dash {
   to {
     stroke-dashoffset: 0;
