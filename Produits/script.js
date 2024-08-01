@@ -23,7 +23,7 @@ $("#tab-bar .tab").on("mousedown mouseup", function (event) {
 
         switch ($this.index()) {
           case 0:
-            window.open("https://enigmatech.site", "_blank");
+            window.open("/", "_blank");
             break;
           case 1:
             $("#wrapper").addClass("active").css({
