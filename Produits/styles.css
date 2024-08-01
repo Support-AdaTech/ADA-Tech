@@ -44,6 +44,11 @@ h6 {
   color: rgba(0, 0, 0, 0.87);
 }
 
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+
 hr {
   width: 90%;
   position: relative;

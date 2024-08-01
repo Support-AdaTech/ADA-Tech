@@ -1,0 +1,143 @@
+:root {
+  --clr-gray-light: #d7dfe2;
+  --clr-gray-med: #616b74;
+  --clr-gray-dark: #414b56;
+  --clr-link: #7895cb;
+  --clr-link-dark: #455b85;
+  --clr-populaire: #ff0060;
+  --clr-tech: #793fdf;
+  --clr-internet: #ffc436;
+}
+
+section#section1 h2 {
+  font-size: 2rem;
+}
+
+.titre {
+  margin-top: 100px;
+}
+
+#newsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0px 2px 20px var(--clr-link-dark);
+  background: #191a1d;
+  border-radius: 0.5rem;
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .smooth {
+    padding: 0 !important;
+  }
+  #newsContainer {
+    max-width: 95vw;
+    padding: 2rem;
+  }
+  .card {
+    max-width: 90vw;
+    margin: 10px 0 10px 0;
+  }
+}
+
+.card h2 {
+  font-size: 1rem !important;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 40px var(--clr-link);
+}
+
+.banner-img {
+  position: absolute;
+  object-fit: cover;
+  height: 14rem;
+  top: 0;
+  width: 100%;
+}
+
+.category-tag {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 0.5rem 1.3rem 0.5rem 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.populaire {
+  background: var(--clr-populaire);
+}
+
+.tech {
+  background: var(--clr-tech);
+}
+
+.internet {
+  background: var(--clr-internet);
+}
+
+.card-body {
+  margin: 15rem 1rem 1rem 1rem;
+}
+
+.blog-hashtag {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-link);
+}
+
+.blog-title {
+  line-height: 1.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.description {
+  color: var(--clr-gray-med);
+  font-size: 0.9rem;
+  margin-bottom: 6rem !important;
+}
+
+.card-profile {
+  position: absolute;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-profile-info {
+  margin-left: 1rem;
+}
+
+.profile-name {
+  font-size: 1rem;
+}
+
+.date {
+  color: var(--clr-gray-med);
+  font-size: 0.9rem;
+}

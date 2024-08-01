@@ -1,0 +1,33 @@
+.smooth {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  margin: 0 auto;
+  width: calc(100% - 1em);
+  padding: 0 1em;
+  height: 100%;
+}
+
+#section1::before {
+  display: none;
+  margin-bottom: 50px;
+}
+
+#section1 {
+  margin-bottom: 50px;
+}
+
+h1 {
+  display: block !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 50px 0;
+}
+
+strong {
+  color: var(--light-primary);
+}

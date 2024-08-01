@@ -1,541 +1,400 @@
 [
   {
-    "name": "Config 625€",
-    "date": "15/10/2023",
-    "description": "Config bas/milieu de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0B4WLZ6Y4&ASIN.2=B0B4S93JPG&ASIN.3=B08BN8VD23&ASIN.4=B0B5CDVS7S&ASIN.5=B0863DHZDJ&ASIN.6=B09HHLX543&ASIN.7=B08X4K89PZ&ASIN.8=B0991W1HKT&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming simple"],
-    "parts": [
-      {
-        "name": "AMD Ryzen 5 3600",
-        "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0B4WLZ6Y4?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Thermalright Assassin X Refined SE ARGB",
-        "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B0B4S93JPG?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Gigabyte B550M AORUS ELITE",
-        "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B08BN8VD23?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Lexar THOR 16 GB (2 x 8 GB)",
-        "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B0B5CDVS7S?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Sabrent Rocket Q 500 GB",
-        "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B0863DHZDJ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "XFX Speedster SWFT 210 Radeon RX 6600",
-        "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B09HHLX543?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Tecware Forge M2",
-        "type": "Case",
-        "link": "https://www.amazon.fr/dp/B08X4K89PZ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "MSI MAG A550BN 550W Bronze",
-        "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0991W1HKT?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      }
-    ]
-  },
-  {
-    "name": "Config 800€",
-    "date": "15/10/2023",
-    "description": "Config parfaite petit/moyen budget",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B09VCHR1VH&ASIN.2=B0B4S93JPG&ASIN.3=B08BCQF1BD&ASIN.4=B0B5CDVS7S&ASIN.5=B0863DHZDJ&ASIN.6=B0BCL3L6ZG&ASIN.7=B09PMJX88Y&AS",
-    "tags": ["Gaming 1080p/1440p"],
+    "name": "Config 815€",
+    "price": "815.68€",
+    "date": "14/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/LVtQ4M",
+    "tags": ["Gaming 1080p"],
     "parts": [
       {
         "name": "AMD Ryzen 5 5600",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B09VCHR1VH?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/PgcG3C/amd-ryzen-5-5600-36-ghz-6-core-processor-100-100000927box"
       },
       {
-        "name": "Thermalright Assassin X 120 SE",
+        "name": "Thermalright Assassin Spirit",
         "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B0B4S93JPG?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/zrP8TW/thermalright-assassin-spirit-120-evo-689-cfm-cpu-cooler-as120-evo"
       },
       {
-        "name": "MSI B550-A PRO",
+        "name": "MSI B550M PRO-VDH WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B08BCQF1BD?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/PDsnTW/msi-b550m-pro-vdh-wifi-micro-atx-am4-motherboard-b550m-pro-vdh-wifi"
       },
       {
-        "name": "Lexar THOR DDR4 (2x8Go/3200Mhz/CL16)",
+        "name": "G.Skill Aegis 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B0B5CDVS7S?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/8BLwrH/gskill-aegis-32-gb-2-x-16-gb-ddr4-3200-cl16-memory-f4-3200c16d-32gis"
       },
       {
-        "name": "Sabrent Rocket Q 1To",
+        "name": "Western Digital Blue SN580",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B0863DHZDJ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/rqhv6h/western-digital-blue-sn580-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds100t3b0e"
       },
       {
-        "name": "AMD Radeon RX 6700",
+        "name": "Zotac Twin Edge OC GeForce RTX 4060",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BCL3L6ZG?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/mzFmP6/zotac-twin-edge-oc-geforce-rtx-4060-8-gb-video-card-zt-d40600h-10m"
       },
       {
-        "name": "Deepcool CC560",
+        "name": "Phanteks XT PRO ULTRA",
         "type": "Case",
-        "link": "https://www.amazon.fr/dp/B09PMJX88Y?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/BXtLrH/phanteks-xt-pro-ultra-atx-mid-tower-case-ph-xt523p1-dbk01"
       },
       {
-        "name": "MSI A650BN",
+        "name": "MSI MAG A650BN",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0991TZ399?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/8LNxFT/msi-mag-a-bn-650-w-80-bronze-certified-atx-power-supply-mag-a650bn"
       }
     ]
   },
   {
-    "name": "Config 1000€",
-    "date": "15/10/2023",
-    "description": "Config milieu de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B09VCHR1VH&ASIN.2=B0B4S93JPG&ASIN.3=B08BCQF1BD&ASIN.4=B0BJPC6L2Z&ASIN.5=B07ZZYWTBP&ASIN.6=B09KW68M2G&ASIN.7=B09PMJX88Y&ASIN.8=B0991TZ399&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming 1080p/1440p/4k à 60fps"],
+    "name": "Config 830€",
+    "price": "830.08€",
+    "date": "12/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/hDTb34",
+    "tags": ["Gaming 1080p"],
     "parts": [
       {
         "name": "AMD Ryzen 5 5600",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B09VCHR1VH?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/PgcG3C/amd-ryzen-5-5600-36-ghz-6-core-processor-100-100000927box"
       },
       {
-        "name": "Thermalright Assassin X Refined SE ARGB",
+        "name": "Thermalright Assassin Spirit",
         "type": "Fan",
-        "link": "https://www.amazon.fr/Thermalright-Ventilateurs-Ventilateur-Refroidisseur-SE-ARGB/dp/B09V7SFMDQ/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VZY34HMCKE3Z&keywords=Thermalright%2BAssassin%2BX%2BRefined%2BSE%2BARGB&qid=1697399172&s=computers&sprefix=thermalright%2Bassassin%2Bx%2Brefined%2Bse%2Bargb%2Ccomputers%2C70&sr=1-1&th=1"
+        "link": "https://fr.pcpartpicker.com/product/khJp99/thermalright-assassin-spirit-120-evo-dark-704-cfm-cpu-cooler-as120-evo-dark-d6-de"
       },
       {
-        "name": "MSI B550-A PRO ",
+        "name": "Asus TUF GAMING B550M-PLUS WIFI II",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B08BCQF1BD?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/kLNxFT/asus-tuf-gaming-b550m-plus-wifi-ii-micro-atx-am4-motherboard-tuf-gaming-b550m-plus-wifi-ii"
       },
       {
-        "name": "Lexar THOR 32 GB (2 x 16 GB) ",
+        "name": "G.Skill Ripjaws V 16 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B0BJPC6L2Z?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/n6RgXL/gskill-ripjaws-v-16-gb-2-x-8-gb-ddr4-3600-memory-f4-3600c18d-16gvk"
       },
       {
-        "name": "Sabrent Rocket Q 1 TB",
+        "name": "Western Digital Blue SN580",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07ZZYWTBP?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/rqhv6h/western-digital-blue-sn580-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds100t3b0e"
       },
       {
-        "name": "XFX Speedster SWFT 319 Radeon RX 6800",
+        "name": "XFX Radeon RX 6750 XT",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B09KW68M2G?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Deepcool CC560 ATX Mid Tower Case",
-        "type": "Case",
-        "link": "https://www.amazon.fr/dp/B09PMJX88Y?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "MSI MAG A650BN 650W Bronze",
-        "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0991TZ399?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      }
-    ]
-  },
-  {
-    "name": "Config 1200€",
-    "date": "15/10/2023",
-    "description": "Config mileu/haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B09VCHQHZ6&ASIN.2=B0B4S93JPG&ASIN.3=B08BCQF1BD&ASIN.4=B0BJPC6L2Z&ASIN.5=B07ZZYWTBP&ASIN.6=B08TJ2BHCQ&ASIN.7=B0BN3SY5XW&ASIN.8=B08BKPQQDD&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming toutes résolutions, Streaming simple possible"],
-    "parts": [
-      {
-        "name": "AMD Ryzen 7 5700X",
-        "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B09VCHQHZ6?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Thermalright Assassin X Refined SE ARGB",
-        "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B09V7SFMDQ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "MSI B550-A PRO",
-        "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B08BCQF1BD?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Lexar THOR 32 GB (2 x 16 GB)",
-        "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B0BJPC6L2Z?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Sabrent Rocket Q 1 TB",
-        "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07ZZYWTBP?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "XFX Speedster MERC 319 CORE Radeon RX 6800 XT",
-        "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B08TJ2BHCQ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/4RrRsY/xfx-radeon-rx-6750-xt-12-gb-speedster-qick-319-core-video-card-rx-675xyjfdp"
       },
       {
         "name": "Lian Li LANCOOL 215",
         "type": "Case",
-        "link": "https://www.amazon.fr/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/YCH8TW/lian-li-lancool-215-atx-mid-tower-case-lancool-215-black"
       },
       {
-        "name": "Cooler Master MWE GOLD 750W V2",
+        "name": "MSI MAG A650BN",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B08BKPQQDD?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/8LNxFT/msi-mag-a-bn-650-w-80-bronze-certified-atx-power-supply-mag-a650bn"
       }
     ]
   },
   {
-    "name": "Config 1400€",
-    "date": "15/10/2023",
-    "description": "Config haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN5YLBRG&ASIN.2=B09NSCCYHH&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0CGM93HJD&ASIN.7=B0BN3SY5XW&ASIN.8=B08MWCYV65&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming, Streaming basic, Création de contenu"],
+    "name": "Config 1116€",
+    "price": "1116.00€",
+    "date": "16/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/zG6pCd",
+    "tags": ["Gaming 1440p", "Streaming"],
     "parts": [
       {
-        "name": "Intel Core i5-13500",
+        "name": "AMD Ryzen 5 7500F",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BN5YLBRG?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/zGn9TW/amd-ryzen-5-7500f-37-ghz-6-core-processor-100-100000597box"
       },
       {
-        "name": "Thermalright Peerless Assassin 120 SE ARGB",
+        "name": "Thermalright Assassin Spirit 120 EVO",
         "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B09NSCCYHH?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/zrP8TW/thermalright-assassin-spirit-120-evo-689-cfm-cpu-cooler-as120-evo"
       },
       {
-        "name": "MSI PRO B760-P WIFI DDR4",
+        "name": "MSI PRO B650-S WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0BJW1G7VN?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/mP88TW/msi-pro-b650-s-wifi-atx-am5-motherboard-pro-b650-s-wifi"
       },
       {
-        "name": "Kingston FURY Beast 32 GB",
+        "name": "Patriot Viper Venom 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B097K2WKZW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/Yyqrxr/patriot-viper-venom-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-pvv532g640c32k"
       },
       {
-        "name": "Sabrent Rocket 4.01 TB",
+        "name": "Western Digital Blue SN580 2 TB",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07TLYWMYW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/266NnQ/western-digital-blue-sn580-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t3b0e"
       },
       {
-        "name": "XFX Speedster RX 7800 XT",
+        "name": "Sapphire PULSE Radeon RX 7700 XT 12 GB",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/XFX-Speedster-MERC319-Graphique-RX-78TMERCB90/dp/B0CGM93HJD?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/TxTZxr/sapphire-pulse-radeon-rx-7700-xt-12-gb-video-card-11335-04-20g"
       },
       {
-        "name": "Lian Li LANCOOL 216",
+        "name": "Phanteks XT PRO ULTRA",
         "type": "Case",
-        "link": "https://www.amazon.fr/Lian-Li-LANCOOL-216-ATX-Geh%C3%A4use-Midi-Tower/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/BXtLrH/phanteks-xt-pro-ultra-atx-mid-tower-case-ph-xt523p1-dbk01"
       },
       {
-        "name": "MSI MPG A750GF 750 W 80+ Gold",
+        "name": "SeaSonic B12 BC 750 W",
         "type": "PSU",
-        "link": "https://www.amazon.fr/MSI-enti%C3%A8rement-modulable-dalimentation-Powercord/dp/B08MWCYV65?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/gBRYcf/seasonic-b12-bc-750-w-80-bronze-certified-atx-power-supply-b12-bc-750"
       }
     ]
-  },
+  },  
   {
-    "name": "Config 1600€",
-    "date": "15/10/2023",
-    "description": "Config très haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN61LYFB&ASIN.2=B0B4S8JMNP&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07ZZYWTBP&ASIN.6=B0BNLSDRKB&ASIN.7=B0BN3SY5XW&ASIN.8=B08BKPQQDD&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming, Streaming, Création de contenu"],
+    "name": "Config 1315€",
+    "price": "1315.69€",
+    "date": "16/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/yFr3xH",
+    "tags": ["Gaming 1440p", "Streaming"],
     "parts": [
       {
-        "name": "Intel Core i5-13400F",
+        "name": "AMD Ryzen 5 7500F",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BN61LYFB?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/zGn9TW/amd-ryzen-5-7500f-37-ghz-6-core-processor-100-100000597box"
       },
       {
-        "name": "Thermalright Assassin X 120 Refined SE",
+        "name": "Thermalright Assassin King SE ARGB",
         "type": "Fan",
-        "link": "https://www.amazon.fr/Thermalright-Assassin-Cooler-TL-C12C-Bearings/dp/B0B4S8JMNP?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/7TddnQ/thermalright-assassin-king-se-argb-6617-cfm-cpu-cooler-ak120-se-white-argb-d6-2"
       },
       {
-        "name": "MSI PRO B760-P WIFI",
+        "name": "MSI B650M GAMING PLUS WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0BJW1G7VN?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/QcvD4D/msi-b650m-gaming-plus-wifi-micro-atx-am5-motherboard-b650m-gaming-plus-wifi"
       },
       {
-        "name": "Kingston FURY Beast 32 GB",
+        "name": "Patriot Viper Venom 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B097K2WKZW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/Yyqrxr/patriot-viper-venom-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-pvv532g640c32k"
       },
       {
-        "name": "Sabrent Rocket Q 1 TB",
+        "name": "Western Digital Blue SN580 1 TB",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07ZZYWTBP?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/rqhv6h/western-digital-blue-sn580-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds100t3b0e"
       },
       {
-        "name": "XFX Radeon RX 7900 XT",
+        "name": "ASRock Steel Legend OC RX 7900 GRE",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BNLSDRKB?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/GDdG3C/asrock-steel-legend-oc-radeon-rx-7900-gre-16-gb-video-card-rx7900gre-sl-16go"
       },
       {
-        "name": "Lian Li LANCOOL 216",
+        "name": "Deepcool CC360 ARGB",
         "type": "Case",
-        "link": "https://www.amazon.fr/Lian-Li-LANCOOL-216-ATX-Geh%C3%A4use-Midi-Tower/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/jmrqqs/deepcool-cc360-argb-microatx-mini-tower-case-r-cc360-whapm3-g-1"
       },
       {
-        "name": "Cooler Master MWE GOLD 750W V2",
+        "name": "SeaSonic G12 GC 750 W",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B08BKPQQDD?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/FJqrxr/seasonic-g12-gc-750-w-80-gold-certified-atx-power-supply-g12-gc-750"
       }
     ]
-  },
+  },  
   {
-    "name": "Config 1800€",
-    "date": "15/10/2023",
-    "description": "Config très haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN5YLBRG&ASIN.2=B0B4S8JMNP&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0BQNDB95D&ASIN.7=B0BN3SY5XW&ASIN.8=B0C3MC57D5&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming, Streaming, Création de contenu"],
+    "name": "Config 1504€",
+    "price": "1503.89€",
+    "date": "15/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/VQnJKX",
+    "tags": ["Gaming 1440p", "Streaming", "Création de contenu"],
     "parts": [
       {
-        "name": "Intel® Core™ i5-13500",
+        "name": "AMD Ryzen 5 7500F",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BN5YLBRG?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/zGn9TW/amd-ryzen-5-7500f-37-ghz-6-core-processor-100-100000597box"
       },
       {
-        "name": "Thermalright Assassin X 120 SE",
+        "name": "Thermalright Assassin Spirit 120 EVO",
         "type": "Fan",
-        "link": "https://www.amazon.fr/Thermalright-Assassin-Cooler-TL-C12C-Bearings/dp/B0B4S8JMNP?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/zrP8TW/thermalright-assassin-spirit-120-evo-689-cfm-cpu-cooler-as120-evo"
       },
       {
-        "name": "MSI Pro B760-P WiFi",
+        "name": "MSI B650 GAMING PLUS WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0BJW1G7VN?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/szfxFT/msi-b650-gaming-plus-wifi-atx-am5-motherboard-b650-gaming-plus-wifi"
       },
       {
-        "name": "Kingston FURY Beast 32GB",
+        "name": "Patriot Viper Venom 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B097K2WKZW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/Yyqrxr/patriot-viper-venom-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-pvv532g640c32k"
       },
       {
-        "name": "Sabrent M.2 NVMe SSD 1To",
+        "name": "Western Digital Blue SN580 1 TB",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07TLYWMYW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/rqhv6h/western-digital-blue-sn580-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds100t3b0e"
       },
       {
-        "name": "Sapphire Pulse Radeon RX 7900 XT",
+        "name": "XFX Speedster MERC 310 RX 7900 XT",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BQNDB95D?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/7dNxFT/xfx-speedster-merc-310-radeon-rx-7900-xt-20-gb-video-card-rx-79tmercu9"
       },
       {
-        "name": "LIAN LI LANCOOL 216",
+        "name": "Phanteks XT PRO ULTRA",
         "type": "Case",
-        "link": "https://www.amazon.fr/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1"
+        "link": "https://fr.pcpartpicker.com/product/BXtLrH/phanteks-xt-pro-ultra-atx-mid-tower-case-ph-xt523p1-dbk01"
       },
       {
-        "name": "MSI MAG A850GL PCIE5",
+        "name": "SeaSonic PRIME 850 W",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0C3MC57D5?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/66rYcf/seasonic-prime-850-w-80-gold-certified-fully-modular-atx-power-supply-prime-gx-850"
       }
     ]
   },
   {
-    "name": "Config 2000€",
-    "date": "15/10/2023",
-    "description": "Config ultra haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BG64N549&Quantity.1=1&ASIN.2=B09NSCCYHH&Quantity.2=1&ASIN.3=B0BJW1G7VN&Quantity.3=1&ASIN.4=B0BKFKWG5Y&Quantity.4=1&ASIN.5=B07TLYWMYW&Quantity.5=1&ASIN.6=B0BNLSW23M&Quantity.6=1&ASIN.7=B0BN3SY5XW&Quantity.7=1&ASIN.8=B0B4345YV7&Quantity.8=1",
-    "tags": ["Gaming, Streaming, Création de contenu"],
-    "parts": [
-      {
-        "name": "Intel® Core™ i5-13600KF",
-        "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BG64N549?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Thermalright Peerless Assassin 120 SE ARGB",
-        "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B09NSCCYHH?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "MSI Pro B760-P WiFi",
-        "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0BJW1G7VN?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "Kingston FURY Beast 32GB",
-        "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B097K2WKZW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "SABRENT M.2 Rocket 1TB",
-        "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07TLYWMYW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "XFX Speedster MERC310 RX 7900XTX",
-        "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BNLSW23M?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "LIAN LI LANCOOL 216",
-        "type": "Case",
-        "link": "https://www.amazon.fr/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      },
-      {
-        "name": "MSI MPG A850G PCIE5",
-        "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0B4345YV7?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
-      }
-    ]
-  },
-  {
-    "name": "Config 2500€",
-    "date": "15/10/2023",
-    "description": "Config ultra haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BN5YLBRG&ASIN.2=B09NSTR7JZ&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0BG94PS2F&ASIN.7=B0BN3SY5XW&ASIN.8=B0B4345YV7&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming, Streaming, Création de contenu"],
+    "name": "Config 1861€",
+    "price": "1860.82€",
+    "date": "16/07/2024",
+    "pcpartpicker": "https://be.pcpartpicker.com/list/s33X6D",
+    "tags": ["Gaming 4k", "Streaming", "Création de contenu"],
     "parts": [
       {
         "name": "AMD Ryzen 7 7800X3D",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BTZB7F88?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/3hyH99/amd-ryzen-7-7800x3d-42-ghz-8-core-processor-100-100000910wof"
       },
       {
-        "name": "Deepcool LS720 Noir",
+        "name": "Thermalright Aqua Elite V3",
         "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B0BLYPXGD9?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/ZQBzK8/thermalright-aqua-elite-v3-6617-cfm-liquid-cpu-cooler-aqua-elite-360-black-v3"
       },
       {
-        "name": "MSI B650 Gaming Plus WiFi",
+        "name": "MSI B650 GAMING PLUS WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0C3R2TXHJ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/szfxFT/msi-b650-gaming-plus-wifi-atx-am5-motherboard-b650-gaming-plus-wifi"
       },
       {
-        "name": "TEAMGROUP T-Force Delta RGB DDR5 32 Go",
+        "name": "Lexar Ares RGB 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/Module-DDR5-7600-TEAMGROUP-Delta/dp/B0BKFKWG5Y?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/MDTZxr/lexar-ares-rgb-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-ld5eu016g-r6400gdla"
       },
       {
-        "name": "Sabrent Rocket M.2 NVMe SSD 1To",
+        "name": "Western Digital Black SN770 2 TB",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07TLYWMYW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/4KRYcf/western-digital-2-tb-m2-2280-nvme-solid-state-drive-wds200t3x0e"
       },
       {
-        "name": "MSI VGA 16GB RTX4080 Gaming X Trio",
+        "name": "Asus TUF GAMING OC Radeon RX 7900 XT 20 GB",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BHDXCXXF?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/RCBG3C/asus-tuf-gaming-oc-radeon-rx-7900-xt-20-gb-video-card-tuf-rx7900xt-o20g-gaming"
       },
       {
-        "name": "LIAN LI LANCOOL 216",
+        "name": "NZXT H6 Flow",
         "type": "Case",
-        "link": "https://www.amazon.fr/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/xgKscf/nzxt-h6-flow-atx-mid-tower-case-cc-h61fb-01"
       },
       {
-        "name": "MSI MPG A850G PCIE5",
+        "name": "EVGA 850 GQ 850 W",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0B4345YV7?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://be.pcpartpicker.com/product/2BcMnQ/evga-850-gq-850-w-80-gold-certified-semi-modular-atx-power-supply-210-gq-0850"
       }
     ]
-  },
+  },  
   {
-    "name": "Config 2800€",
-    "date": "15/10/2023",
-    "description": "Config hyper haut de gamme",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?ASIN.1=B0BN5YLBRG&ASIN.2=B09NSTR7JZ&ASIN.3=B0BJW1G7VN&ASIN.4=B097K2WKZW&ASIN.5=B07TLYWMYW&ASIN.6=B0BG94PS2F&ASIN.7=B0BN3SY5XW&ASIN.8=B0B4345YV7&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1&AssociateTag=enigmatech07-21",
-    "tags": ["Gaming, Streaming, Création de contenu"],
+    "name": "Config 2134€",
+    "price": "2134.14€",
+    "date": "16/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/BmW3PF",
+    "tags": ["Gaming 4k", "Streaming", "Création de contenu", "Tâches Lourdes"],
     "parts": [
       {
-        "name": "Intel® Core™ i5-13500",
+        "name": "AMD Ryzen 5 7600",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BN5YLBRG?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/yXmmP6/amd-ryzen-5-7600-38-ghz-6-core-processor-100-100001015box"
       },
       {
-        "name": "Thermalright Peerless Assassin 120 SE",
+        "name": "Thermalright Frozen Prism ARGB",
         "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B09NSTR7JZ?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/VnMMnQ/thermalright-frozen-prism-argb-704-cfm-liquid-cpu-cooler-frozen-prism-360-white-argb"
       },
       {
-        "name": "MSI Pro B760-P Wifi",
+        "name": "MSI X670E GAMING PLUS WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0BJW1G7VN?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/4jKscf/msi-x670e-gaming-plus-wifi-atx-am5-motherboard-x670e-gaming-plus-wifi"
       },
       {
-        "name": "Kingston FURY Beast 32GB",
+        "name": "Lexar Ares RGB 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B097K2WKZW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/WPLdnQ/lexar-ares-rgb-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-ld5eu016g-r6400gdwa"
       },
       {
-        "name": "Sabrent Rocket M.2 NVMe SSD 1To",
+        "name": "Western Digital Black SN850X 2 TB",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07TLYWMYW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/crKKHx/western-digital-black-sn850x-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t2x0e"
       },
       {
-        "name": "MSI GeForce RTX 4090 Gaming X Trio",
+        "name": "Zotac GAMING Trinity OC RTX 4080 SUPER",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BG94PS2F?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/MjCZxr/zotac-gaming-trinity-oc-geforce-rtx-4080-super-16-gb-video-card-zt-d40820q-10p"
       },
       {
-        "name": "LIAN LI LANCOOL 216 RGB",
+        "name": "NZXT H6 Flow",
         "type": "Case",
-        "link": "https://www.amazon.fr/dp/B0BN3SY5XW?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/8QMMnQ/nzxt-h6-flow-atx-mid-tower-case-cc-h61fw-01"
       },
       {
-        "name": "MSI MPG A850G PCIE5",
+        "name": "SeaSonic PRIME 850 W",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0B4345YV7?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/66rYcf/seasonic-prime-850-w-80-gold-certified-fully-modular-atx-power-supply-prime-gx-850"
       }
     ]
   },
   {
-    "name": "Config 3300€",
-    "date": "15/10/2023",
-    "description": "Config ultime",
-    "panier": "https://www.amazon.fr/gp/aws/cart/add.html?AssociateTag=enigmatech07-21&ASIN.1=B0BTZB7F88&ASIN.2=B0BLYPXGD9&ASIN.3=B0BDS873GF&ASIN.4=B0BKFKWG5Y&ASIN.5=B07TN1MNJ4&ASIN.6=B0BG94PS2F&ASIN.7=B0B469JRGC&ASIN.8=B0C4B8BWM3&Quantity.1=1&Quantity.2=1&Quantity.3=1&Quantity.4=1&Quantity.5=1&Quantity.6=1&Quantity.7=1&Quantity.8=1",
-    "tags": ["Gaming, Streaming, Création de contenu"],
+    "name": "Config 2663€",
+    "price": "2663.04€",
+    "date": "14/07/2024",
+    "pcpartpicker": "https://fr.pcpartpicker.com/list/Qnt8GP",
+    "tags": ["Gaming 4k", "Streaming", "Création de contenu", "Tâches Lourdes", "Ecran compris"],
     "parts": [
       {
         "name": "AMD Ryzen 7 7800X3D",
         "type": "Processor",
-        "link": "https://www.amazon.fr/dp/B0BTZB7F88?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/3hyH99/amd-ryzen-7-7800x3d-42-ghz-8-core-processor-100-100000910wof"
       },
       {
-        "name": "Deepcool LS720 Noir",
+        "name": "Thermalright Frozen Prism ARGB",
         "type": "Fan",
-        "link": "https://www.amazon.fr/dp/B0BLYPXGD9?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/VnMMnQ/thermalright-frozen-prism-argb-704-cfm-liquid-cpu-cooler-frozen-prism-360-white-argb"
       },
       {
-        "name": "MSI MAG B650 Tomahawk WiFi",
+        "name": "MSI X670E GAMING PLUS WIFI",
         "type": "Motherboard",
-        "link": "https://www.amazon.fr/dp/B0BDS873GF?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/4jKscf/msi-x670e-gaming-plus-wifi-atx-am5-motherboard-x670e-gaming-plus-wifi"
       },
       {
-        "name": "TEAMGROUP Delta DDR5 32Go 7600MHz",
+        "name": "Lexar Ares RGB 32 GB",
         "type": "RAM",
-        "link": "https://www.amazon.fr/dp/B0BKFKWG5Y?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/WPLdnQ/lexar-ares-rgb-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-ld5eu016g-r6400gdwa"
       },
       {
-        "name": "SABRENT M.2 NVMe SSD 2To",
+        "name": "Western Digital Black SN850X 2 TB",
         "type": "SSD",
-        "link": "https://www.amazon.fr/dp/B07TN1MNJ4?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/crKKHx/western-digital-black-sn850x-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t2x0e"
       },
       {
-        "name": "MSI GeForce RTX 4090 Gaming X Trio",
+        "name": "Zotac GAMING Trinity OC RTX 4080 SUPER",
         "type": "Video Card",
-        "link": "https://www.amazon.fr/dp/B0BG94PS2F?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/MjCZxr/zotac-gaming-trinity-oc-geforce-rtx-4080-super-16-gb-video-card-zt-d40820q-10p"
       },
       {
-        "name": "LIAN LI Lancool III RGB",
+        "name": "Phanteks XT PRO ULTRA",
         "type": "Case",
-        "link": "https://www.amazon.fr/dp/B0B469JRGC?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/TGzXsY/phanteks-xt-pro-ultra-atx-mid-tower-case-ph-xt523p1-dwt01"
       },
       {
-        "name": "Corsair HX1000i Gold",
+        "name": "Corsair RM850",
         "type": "PSU",
-        "link": "https://www.amazon.fr/dp/B0C4B8BWM3?tag=enigmatech07-21&linkCode=ogi&th=1&psc=1"
+        "link": "https://fr.pcpartpicker.com/product/9KGbt6/corsair-rm850-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020232-na"
+      },
+      {
+        "name": "Gigabyte M27Q-X 27.0\" 2k 240 Hz",
+        "type": "Monitor",
+        "link": "https://fr.pcpartpicker.com/product/TxddnQ/gigabyte-m27q-x-270-2560-x-1440-240-hz-monitor-m27q-x"
       }
     ]
   }
+  
 ]
