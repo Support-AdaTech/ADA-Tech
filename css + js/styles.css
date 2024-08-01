@@ -36,8 +36,14 @@ body {
 
 .fa-solid {
   margin-left: 10px;
+  margin-right: 15px;
   transform: translateY(1px);
 }
+
+button {
+  cursor: pointer;
+}
+
 hr {
   width: 70vw;
   height: 1px;
@@ -123,9 +129,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-.fa-solid {
-  margin-right: 15px;
 }
 header,
 footer {
