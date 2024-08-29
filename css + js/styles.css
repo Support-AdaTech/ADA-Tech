@@ -133,10 +133,15 @@ ul {
 header,
 footer {
   position: relative;
-  padding: 2em 3em;
+  padding: 2em 5em;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1rem;
+}
+.f_logo,
+.widget,
+.copy p {
+  margin-left: 5%;
 }
 header {
   position: sticky;
@@ -445,14 +450,20 @@ section#section2 #features-container {
 
 #features-description {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
   margin-top: 2%;
+  margin-left: 10%;
   padding: 1%;
   display: flex;
-  width: 70%;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  #features-description {
+    width: 80%;
+  }
 }
 
 #features-description h1 {
@@ -545,6 +556,12 @@ section#section2 #features-container {
 
 section#section3 {
   margin-top: 5%;
+}
+
+section#section3 h2,
+section#section3 p {
+  align-self: self-start;
+  margin-left: 2%;
 }
 
 section#section3 form {
@@ -773,6 +790,11 @@ section#section4 .block {
   transition: all 0.2s linear;
   will-change: transform;
 }
+section#section4 h2,
+section#section4 p {
+  align-self: self-start;
+  margin-left: 2%;
+}
 @media (max-width: 321px) {
   section#section4 .block {
     font-size: 6vw;
@@ -814,6 +836,12 @@ section#section4 .button {
 }
 
 /* ------------------------------------------------------------------------ */
+
+section#section5 h2,
+section#section5 p {
+  align-self: self-start;
+  margin-left: 2%;
+}
 
 section#section5 .slick-slide {
   text-align: center;
@@ -1046,7 +1074,7 @@ footer {
   width: 100%;
   min-height: 10vh;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: left;
   border-top: 2px solid var(--dark-secondary);
   background-color: var(--dark-gray);
 }
@@ -1162,9 +1190,6 @@ footer .copy .heart {
 }
 
 @media (max-width: 576px) {
-  footer .copy {
-    text-align: center;
-  }
   footer .copy {
     display: block;
   }
