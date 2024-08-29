@@ -558,10 +558,30 @@ section#section3 {
   margin-top: 5%;
 }
 
+section#section3 hr {
+  align-self: self-start;
+  margin-top: 5%;
+}
+
 section#section3 h2,
 section#section3 p {
   align-self: self-start;
   margin-left: 2%;
+}
+
+@media screen and (min-width: 699px) {
+  section#section3 hr {
+    align-self: center;
+    width: 33%;
+    margin-top: 0%;
+  }
+
+  section#section3 h2,
+  section#section3 p,
+  section#section3 p i {
+    align-self: center;
+    margin-left: 0%;
+  }
 }
 
 section#section3 form {
@@ -793,7 +813,7 @@ section#section4 .block {
 section#section4 h2,
 section#section4 p {
   align-self: self-start;
-  margin-left: 2%;
+  margin-left: 10%;
 }
 @media (max-width: 321px) {
   section#section4 .block {
@@ -840,7 +860,7 @@ section#section4 .button {
 section#section5 h2,
 section#section5 p {
   align-self: self-start;
-  margin-left: 2%;
+  margin-left: 10%;
 }
 
 section#section5 .slick-slide {
